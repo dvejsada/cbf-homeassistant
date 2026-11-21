@@ -56,7 +56,7 @@
       "cannot_connect": "Nelze se připojit k serveru ČBF.",
       "invalid_data": "Server ČBF vrátil neočekávaná data.",
       "no_competitions": "Žádná soutěž s rozpisem neodpovídá.",
-      "invalid_phase": "Zadejte ID fáze nebo URL obsahující p=<id>.",
+      "invalid_phase": "Zadejte ID fáze nebo URL obsahující p=….",
       "phase_not_found": "Tato fáze nepatří do zvoleného ročníku."
     },
     "abort": {

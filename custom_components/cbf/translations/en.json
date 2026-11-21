@@ -56,7 +56,7 @@
       "cannot_connect": "Cannot connect to the CBF server.",
       "invalid_data": "The CBF server returned unexpected data.",
       "no_competitions": "No competition with a schedule matches.",
-      "invalid_phase": "Enter a phase id or a URL containing p=<id>.",
+      "invalid_phase": "Enter a phase id or a URL containing p=….",
       "phase_not_found": "This phase is not part of the selected season."
     },
     "abort": {
