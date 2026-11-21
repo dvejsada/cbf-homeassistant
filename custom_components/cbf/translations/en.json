@@ -1,0 +1,130 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Follow a CBF team",
+        "description": "Choose the season (2026 = 2026/27). Optionally narrow the competitions by name, or paste a phase id / cbf.cz schedule URL (containing p=…) to skip straight to team selection.",
+        "data": {
+          "season": "Season",
+          "search": "Competition name contains",
+          "phase_ref": "Phase id or URL"
+        },
+        "data_description": {
+          "search": "E.g. “2.třída” – leave empty to list all.",
+          "phase_ref": "Optional, e.g. 10469."
+        }
+      },
+      "reconfigure": {
+        "title": "Change followed competition",
+        "description": "Point this team to another phase, e.g. a new season or the play-off. Entities and their history are kept.",
+        "data": {
+          "season": "Season",
+          "search": "Competition name contains",
+          "phase_ref": "Phase id or URL"
+        }
+      },
+      "category": {
+        "title": "Category",
+        "description": "Choose the category of the competition.",
+        "data": {
+          "category": "Category"
+        }
+      },
+      "competition": {
+        "title": "Competition",
+        "description": "{count} competitions in category {category}.",
+        "data": {
+          "competition": "Competition"
+        }
+      },
+      "phase": {
+        "title": "Phase",
+        "description": "{competition}",
+        "data": {
+          "phase": "Phase"
+        }
+      },
+      "team": {
+        "title": "Team",
+        "description": "{competition} – {phase}",
+        "data": {
+          "team": "Team"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to the CBF server.",
+      "invalid_data": "The CBF server returned unexpected data.",
+      "no_competitions": "No competition with a schedule matches.",
+      "invalid_phase": "Enter a phase id or a URL containing p=<id>.",
+      "phase_not_found": "This phase is not part of the selected season."
+    },
+    "abort": {
+      "already_configured": "This team is already followed in this phase.",
+      "reconfigure_successful": "Reconfiguration was successful.",
+      "cannot_connect": "Cannot connect to the CBF server.",
+      "invalid_data": "The CBF server returned unexpected data.",
+      "no_teams": "This phase has no teams yet."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options",
+        "data": {
+          "scan_interval_hours": "Update interval"
+        },
+        "data_description": {
+          "scan_interval_hours": "How often to fetch the schedule from CBF (1–24 h). Please keep it gentle on the CBF server."
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "next_game": {
+        "name": "Next game"
+      },
+      "next_opponent": {
+        "name": "Next opponent"
+      },
+      "last_game": {
+        "name": "Last game"
+      },
+      "last_game_outcome": {
+        "name": "Last game outcome",
+        "state": {
+          "win": "Win",
+          "loss": "Loss",
+          "draw": "Draw"
+        }
+      },
+      "position": {
+        "name": "Table position"
+      },
+      "points": {
+        "name": "Table points"
+      },
+      "games_remaining": {
+        "name": "Games remaining"
+      },
+      "streak": {
+        "name": "Streak"
+      },
+      "last_update": {
+        "name": "Last update"
+      }
+    }
+  },
+  "exceptions": {
+    "update_failed": {
+      "message": "Error fetching data from CBF: {error}"
+    }
+  },
+  "issues": {
+    "season_finished": {
+      "title": "{team}: all games played",
+      "description": "All games of {team} in {division} have a result. When a new season or the play-off starts, reconfigure the integration entry to follow the new phase."
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Sledovat družstvo ČBF",
+        "description": "Zvolte ročník (2026 = 2026/27). Volitelně zúžte soutěže podle názvu, nebo vložte ID fáze / URL rozpisu z cbf.cz (obsahující p=…) a přejděte rovnou k výběru družstva.",
+        "data": {
+          "season": "Ročník",
+          "search": "Název soutěže obsahuje",
+          "phase_ref": "ID fáze nebo URL"
+        },
+        "data_description": {
+          "search": "Např. „2.třída“ – prázdné pro všechny.",
+          "phase_ref": "Volitelné, např. 10469."
+        }
+      },
+      "reconfigure": {
+        "title": "Změnit sledovanou soutěž",
+        "description": "Přesměrujte družstvo na jinou fázi, např. nový ročník nebo play-off. Entity i jejich historie zůstanou zachovány.",
+        "data": {
+          "season": "Ročník",
+          "search": "Název soutěže obsahuje",
+          "phase_ref": "ID fáze nebo URL"
+        }
+      },
+      "category": {
+        "title": "Kategorie",
+        "description": "Vyberte kategorii soutěže.",
+        "data": {
+          "category": "Kategorie"
+        }
+      },
+      "competition": {
+        "title": "Soutěž",
+        "description": "{count} soutěží v kategorii {category}.",
+        "data": {
+          "competition": "Soutěž"
+        }
+      },
+      "phase": {
+        "title": "Fáze",
+        "description": "{competition}",
+        "data": {
+          "phase": "Fáze"
+        }
+      },
+      "team": {
+        "title": "Družstvo",
+        "description": "{competition} – {phase}",
+        "data": {
+          "team": "Družstvo"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Nelze se připojit k serveru ČBF.",
+      "invalid_data": "Server ČBF vrátil neočekávaná data.",
+      "no_competitions": "Žádná soutěž s rozpisem neodpovídá.",
+      "invalid_phase": "Zadejte ID fáze nebo URL obsahující p=<id>.",
+      "phase_not_found": "Tato fáze nepatří do zvoleného ročníku."
+    },
+    "abort": {
+      "already_configured": "Toto družstvo je v této fázi již sledováno.",
+      "reconfigure_successful": "Změna nastavení proběhla úspěšně.",
+      "cannot_connect": "Nelze se připojit k serveru ČBF.",
+      "invalid_data": "Server ČBF vrátil neočekávaná data.",
+      "no_teams": "Tato fáze zatím nemá žádná družstva."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Možnosti",
+        "data": {
+          "scan_interval_hours": "Interval aktualizace"
+        },
+        "data_description": {
+          "scan_interval_hours": "Jak často stahovat rozpis z ČBF (1–24 h). Prosíme, šetřete server ČBF."
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "next_game": {
+        "name": "Příští utkání"
+      },
+      "next_opponent": {
+        "name": "Příští soupeř"
+      },
+      "last_game": {
+        "name": "Poslední utkání"
+      },
+      "last_game_outcome": {
+        "name": "Výsledek posledního utkání",
+        "state": {
+          "win": "Výhra",
+          "loss": "Prohra",
+          "draw": "Remíza"
+        }
+      },
+      "position": {
+        "name": "Pořadí v tabulce"
+      },
+      "points": {
+        "name": "Body v tabulce"
+      },
+      "games_remaining": {
+        "name": "Zbývající utkání"
+      },
+      "streak": {
+        "name": "Série"
+      },
+      "last_update": {
+        "name": "Poslední aktualizace"
+      }
+    }
+  },
+  "exceptions": {
+    "update_failed": {
+      "message": "Chyba při stahování dat z ČBF: {error}"
+    }
+  },
+  "issues": {
+    "season_finished": {
+      "title": "{team}: všechna utkání odehrána",
+      "description": "Všechna utkání družstva {team} v soutěži {division} mají výsledek. Až začne nový ročník nebo play-off, změňte nastavení (Přenastavit) položky integrace a vyberte novou fázi."
+    }
+  }
+}

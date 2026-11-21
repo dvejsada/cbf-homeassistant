@@ -1,0 +1,13 @@
+{
+  "domain": "cbf",
+  "name": "CBF Basketball",
+  "codeowners": ["@dvejsada"],
+  "config_flow": true,
+  "documentation": "https://github.com/dvejsada/cbf-homeassistant",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/dvejsada/cbf-homeassistant/issues",
+  "loggers": ["custom_components.cbf"],
+  "requirements": ["defusedxml>=0.7.1"],
+  "version": "0.1.0"
+}

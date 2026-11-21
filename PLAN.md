@@ -23,7 +23,7 @@ CBF XML exports (https://cbf.cz.basketball/xml-exporty/p58), served from `https:
 | No ETag/Last-Modified, content-type text/html | no conditional GETs; don't validate MIME; parse with `defusedxml`, ignore DOCTYPE |
 
 ## Configuration
-**One config entry per team** (`integration_type: service`), unique_id = CBF team id. The user follows one team; subentries (competition entry + team subentries) were considered but add UI complexity for no real gain here.
+**One config entry per team** (`integration_type: service`), unique_id = `<phase id>_<team id>` (updated on reconfigure; entity unique ids use the entry id so history is kept). The user follows one team; subentries (competition entry + team subentries) were considered but add UI complexity for no real gain here.
 
 Config flow:
 1. **Season** (default: current; Aug+ = this year) + **category** (muži, ženy, U13…) + optional search text
