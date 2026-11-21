@@ -3,7 +3,7 @@
 [![HACS Custom](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz/)
 [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-2026.10%2B-03A9F4.svg)](https://www.home-assistant.io/)
 
-**Never miss a game again.** Follow your team from any Czech Basketball Federation (ČBF) competition – from the top league down to the local *3. třída* – right in Home Assistant.
+**Never miss a game again.** Follow your team from any Czech Basketball Federation (ČBF) competition – from the top league down to your local *3. třída* – right in Home Assistant.
 
 🇨🇿 [Česká verze návodu](README.cs.md)
 
@@ -21,15 +21,17 @@
 
 ## 📦 Installation
 
-### Via HACS / Marketplace (recommended)
+**You need:** Home Assistant **2026.10 or newer** with the community store – called **Marketplace** since Home Assistant 2026.11 (*Settings → Marketplace*), **HACS** in older versions.
+
+### Via the Marketplace / HACS (recommended)
 
 [![Open your Home Assistant instance and open this repository in HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=dvejsada&repository=cbf-homeassistant&category=integration)
 
-Or manually:
+Or step by step:
 
-1. Open **Marketplace** (HACS) → menu **⋮** → **Custom repositories**.
+1. Open the **Marketplace** (or **HACS**) → menu **⋮** → **Custom repositories**.
 2. Add `https://github.com/dvejsada/cbf-homeassistant` with type **Integration**.
-3. Find **CBF Basketball**, click **Download**.
+3. Find **CBF Basketball** and click **Download**.
 4. **Restart** Home Assistant.
 
 ### Manual installation
@@ -48,30 +50,32 @@ Or go to **Settings → Devices & services → Add integration → CBF Basketbal
 3. **Competition** – and its **phase** if there is more than one (e.g. regular season / play-off).
 4. **Team** – pick yours. Done! 🎉
 
-> 💡 **Shortcut:** already have your competition open on cz.basketball or cbf.cz? Paste a link containing `p=…` (or just the phase number) into the *Phase id or URL* field and jump straight to picking the team.
+> 💡 **Shortcut:** if you have a link to your competition's schedule on the ČBF website that contains `p=…` (for example `…?p=10469`), paste it – or just the number – into the *Phase id or URL* field and jump straight to picking the team.
 
 Want to follow more teams (your kids', your club's other squads)? Just add the integration again.
 
 ## 📋 Entities
 
-Example for team *TJ ÚVN*:
+Example for team *TJ ÚVN* on a Home Assistant set to **English**:
 
 | Entity | Example state | Useful attributes |
 |---|---|---|
-| `calendar.tj_uvn` | `on` during a game | all games of the season |
-| `sensor.tj_uvn_next_game` | `26 Nov 2026, 19:40` | `opponent`, `home`, `venue`, `city`, `round`, `head_to_head` |
+| `calendar.tj_uvn` | `on` while a game is on | all games of the season |
+| `sensor.tj_uvn_next_game` | date and time of tip-off | `date`, `opponent`, `home`, `venue`, `city`, `round`, `head_to_head` |
 | `sensor.tj_uvn_next_opponent` | `Sokol Dolní Počernice C` | `home` |
 | `sensor.tj_uvn_last_game` | `54:83` *(your score first)* | `opponent`, `date`, `outcome`, `periods` |
 | `sensor.tj_uvn_last_game_outcome` | `Loss` | |
 | `sensor.tj_uvn_table_position` | `7` | `wins`, `losses`, `points_scored`, `points_conceded`, `table` |
 | `sensor.tj_uvn_table_points` | `9` | |
 | `sensor.tj_uvn_games_remaining` | `15` | |
-| `sensor.tj_uvn_streak` | `L2` *(2 losses in a row)* | |
+| `sensor.tj_uvn_streak` | `L2` *(2 losses in a row; W = wins)* | |
 | `sensor.tj_uvn_last_update` | when data were last fetched | |
 
-Your entity IDs depend on your team's name – check them on the team's device page.
+⚠️ Entity IDs depend on your **team's name** and your **Home Assistant language** – on a Czech system they are Czech (e.g. `sensor.tj_uvn_pristi_utkani`, see the [Czech README](README.cs.md#-entity)). Check yours on the team's device page and adjust the examples below.
 
 ## 🖼️ Dashboard ideas
+
+Add these via **Dashboard → Edit → Add card → Manual**.
 
 **Next game & standings card**
 
@@ -81,6 +85,7 @@ title: 🏀 TJ ÚVN
 entities:
   - entity: sensor.tj_uvn_next_game
     name: Next game
+    format: datetime
   - type: attribute
     entity: sensor.tj_uvn_next_game
     attribute: opponent
@@ -113,7 +118,9 @@ content: |
 
 ## 🤖 Automation ideas
 
-**Game-day reminder 3 hours before tip-off** (uses the built-in calendar trigger):
+Create them via **Settings → Automations & scenes → Create automation → ⋮ → Edit in YAML**, and replace `notify.mobile_app_your_phone` with your own notification action.
+
+**Reminder 3 hours before tip-off** (uses the built-in calendar trigger):
 
 ```yaml
 alias: Basketball – game reminder
@@ -122,11 +129,17 @@ triggers:
     event: start
     entity_id: calendar.tj_uvn
     offset: "-3:00:00"
+conditions:
+  # skip games whose tip-off time is not confirmed yet (all-day events)
+  - condition: template
+    value_template: "{{ not trigger.calendar_event.all_day }}"
 actions:
   - action: notify.mobile_app_your_phone
     data:
       title: 🏀 Game today
-      message: "{{ trigger.calendar_event.summary }} – {{ trigger.calendar_event.location }}"
+      message: >
+        {{ trigger.calendar_event.summary }}
+        {{ trigger.calendar_event.location or '' }}
 mode: single
 ```
 
@@ -137,27 +150,22 @@ alias: Basketball – new result
 triggers:
   - trigger: state
     entity_id: sensor.tj_uvn_last_game
-conditions:
-  - condition: template
-    value_template: >
-      {{ trigger.from_state.state not in ['unknown', 'unavailable']
-         and trigger.to_state.state not in ['unknown', 'unavailable'] }}
+    not_from: [unknown, unavailable]
+    not_to: [unknown, unavailable]
 actions:
   - action: notify.mobile_app_your_phone
     data:
       title: 🏀 Final score
       message: >
-        vs {{ state_attr('sensor.tj_uvn_last_game', 'opponent') }}:
-        {{ states('sensor.tj_uvn_last_game') }}
-        ({{ states('sensor.tj_uvn_last_game_outcome') }})
+        vs {{ trigger.to_state.attributes.opponent }}:
+        {{ trigger.to_state.state }}
+        {{ iif(trigger.to_state.attributes.outcome == 'win', '🏆 Win!', '(loss)') }}
 mode: queued
 ```
 
-Replace `notify.mobile_app_your_phone` with your own notification action.
-
 ## 🔄 New season or play-off
 
-When every game of the season has a result, Home Assistant shows a **repair notice**. Once the new season (or the play-off) is published on ČBF, open the integration entry, choose **Reconfigure** and pick the new competition phase. Your entities, dashboards, automations and history keep working.
+When every game of the season has a result, Home Assistant shows a notice under **Settings → Repairs**. Once the new season (or the play-off) is published by ČBF, go to **Settings → Devices & services → CBF Basketball**, open the entry's **⋮** menu → **Reconfigure** and pick the new competition phase. Your entities, dashboards, automations and history keep working.
 
 ## 🛠️ Options
 
@@ -167,8 +175,8 @@ When every game of the season has a result, Home Assistant shows a **repair noti
 
 ## ❓ FAQ
 
-**The next game shows `unknown` but I can see a date.**
-The tip-off time hasn't been confirmed by the league yet (ČBF publishes such games with time `00:00`). The date is in the `date` attribute, and the calendar shows the game as an all-day event marked *time TBC*.
+**The next game shows "Unknown", although the game is in the schedule.**
+The league hasn't confirmed the tip-off time yet (ČBF publishes such games with time `00:00`). The date is in the sensor's `date` attribute, and the calendar shows the game as an all-day event marked *time TBC* (so the calendar is `on` that whole day).
 
 **A postponed game is missing from the calendar.**
 Postponed games without a new date are left out until ČBF publishes the new date.
