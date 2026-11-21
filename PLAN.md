@@ -34,36 +34,33 @@ Config flow:
 Escape hatch on step 1: paste a phase id or a cbf.cz URL containing `p=`.
 
 - **Reconfigure flow** – re-point the entry to a new phase (new season / playoffs) keeping entities and history.
-- **Options flow** (`OptionsFlowWithReload`) – base polling interval.
+- **Options flow** (`OptionsFlowWithReload`) – polling interval.
 - **Repair issue** when every game of the phase is played (season over) → suggests reconfigure.
 
 ## Entities (one device per team, `DeviceEntryType.SERVICE`)
 | Entity | State | Notes |
 |---|---|---|
 | `calendar.<team>` | – | all games; UID = game id (reschedules move, not duplicate); location = venue, city; 2 h events, all-day "date TBC" when time unknown; unscheduled games omitted |
-| `sensor.<team>_next_game` | timestamp | `unknown` if date TBC (date in attribute); attrs: opponent, home/away, venue, city, round, game id |
+| `sensor.<team>_next_game` | timestamp | `unknown` if date TBC (date in attribute); attrs: opponent, home/away, venue, city, round, game id, head-to-head vs that opponent this phase (results list + W/L) |
 | `sensor.<team>_next_opponent` | text | kept for simple dashboards/notifications |
 | `sensor.<team>_last_game` | "54:83" (team perspective) | attrs: opponent, date, home/away, quarter scores, venue |
 | `sensor.<team>_last_game_outcome` | enum `win`/`loss` | translated states |
 | `sensor.<team>_position` | int, measurement | attrs: gp, w, l, points for/against, diff; full table as attribute (≈1.5 kB) excluded from recorder |
 | `sensor.<team>_points` | int, measurement | table points |
-| `sensor.<team>_games_remaining` | int | |
+| `sensor.<team>_games_remaining` | int | unplayed games in the phase |
+| `sensor.<team>_streak` | e.g. `W2`, `L3` | from played games in date order |
 | `sensor.<team>_last_update` | timestamp, diagnostic | last successful fetch |
 
 Referee names: exposed only in calendar description and excluded from recorder; redacted in diagnostics.
 Next/last game sensors are recomputed at tip-off via `async_track_point_in_time`, independent of polling.
 
-## Polling (per entry coordinator, 2 requests max per refresh)
-| Situation | Interval |
-|---|---|
-| Default | 6 h (option, min 1 h) |
-| No game within 3 days / season over | 24 h |
-| After a game (tip-off + 2 h) until result appears | 30 min for 2 h, then hourly up to 24 h, then default |
-| Error | keep last data, `UpdateFailed`, normal retry |
-
+## Polling (per entry coordinator, 2 requests per refresh)
+- **Fixed interval**, default **3 h**, configurable in options (min 1 h, max 24 h). No game-day logic.
 - Fetch `table.php` only when results in the schedule changed (≈ halves traffic).
-- Small jitter, descriptive User-Agent, shared aiohttp session.
-- Expected load: ~4–8 requests/day, ~15 on game days.
+- Error: keep last data, `UpdateFailed`, retry next cycle.
+- Shared aiohttp session, descriptive User-Agent.
+- Expected load: ~8–16 requests/day.
+- Next/last game sensors still switch at tip-off via `async_track_point_in_time` (no extra requests).
 
 ## Implementation notes (HA 2026.11, Python 3.14)
 - `entry.runtime_data` with typed `CbfConfigEntry`; `async_forward_entry_setups` / `async_unload_platforms`; setup raises `ConfigEntryNotReady` (translated) instead of returning False.
@@ -76,5 +73,11 @@ Next/last game sensors are recomputed at tip-off via `async_track_point_in_time`
 - `hacs.json` (`name`, `homeassistant: "2026.11.0"`), README (cs + en), CI: hassfest + `hacs/action`, pytest.
 - Tests: parser on real fixtures (incl. 0000-00-00, TBC times), config + reconfigure flow, coordinator interval logic.
 
+## Decisions (confirmed by user)
+- Fixed polling interval (default 3 h).
+- Extra sensors: games remaining, last update (diagnostic), head-to-head (attribute), streak.
+- New season / playoffs: manual reconfigure, prompted by a repair issue.
+- English code; cs + en UI translations; README in both languages.
+
 ## Out of scope for v1
-Auto-following playoff phases (use reconfigure), head-to-head stats, multiple teams sharing one fetch.
+Auto-following playoff phases, multiple teams sharing one fetch.
