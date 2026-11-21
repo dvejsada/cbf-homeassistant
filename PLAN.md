@@ -1,29 +1,83 @@
-# CBF Home Assistant integration – plan
+# CBF Home Assistant integration – plan (v2)
 
-Data source: CBF XML exports (https://cbf.cz.basketball/xml-exporty/p58), served from `https://www.cbf.cz/xml/`:
-- `divs.php?s=<season>` – competitions and phases (used only in the config flow)
-- `sched.php?p=<phase>` – games: date/time, venue, teams, referees, score, cumulative partials
+v2 incorporates a design review of v1 and research on HA changes up to 2026.11.
+
+## Data source
+CBF XML exports (https://cbf.cz.basketball/xml-exporty/p58), served from `https://www.cbf.cz/xml/`
+(plain http times out). The page asks clients to use the server sparingly.
+- `divs.php?s=<season>` – competitions + phases (config flow only)
+- `sched.php?p=<phase>` – games
 - `table.php?p=<phase>` – standings
 
-Quirks: unplayed game = score 0:0; time `00:00:00` = time not set yet; team names contain extra spaces; plain http times out.
+### Data rules (verified against fixtures)
+| Rule | Why |
+|---|---|
+| Played ⇔ `pts` ≠ 0/0 | unplayed games have score 0:0 **and** a placeholder partial 0:0 |
+| `gdate = 0000-00-00` → unscheduled | postponed game without new date (game 551856); must not crash the refresh |
+| `gtime = 00:00:00` → time unknown | 67/132 games; rounds 12+ are placeholder Mondays – shown as "date TBC" |
+| Times are Europe/Prague local | localize with fixed `Europe/Prague`, not HA's timezone |
+| Match teams by `<id>` only | names contain double/trailing spaces; normalise with `" ".join(s.split())` for display |
+| Partials are cumulative Q1–Q3 | Q4 = final − Q3; overtime indistinguishable; parse 0..n partials defensively |
+| Table ranks by points (win 2, loss 1) | expose gp/w/l so position isn't misleading with unequal games played |
+| Past-dated game without result | "awaiting result" – never stays as *next game*, doesn't block *last game* |
+| No ETag/Last-Modified, content-type text/html | no conditional GETs; don't validate MIME; parse with `defusedxml`, ignore DOCTYPE |
 
-## Config flow
-Season (+ optional search) → competition → phase (auto-skip if single) → team. One config entry / device per team.
+## Configuration
+**One config entry per team** (`integration_type: service`), unique_id = `<phase id>_<team id>` (updated on reconfigure; entity unique ids use the entry id so history is kept). The user follows one team; subentries (competition entry + team subentries) were considered but add UI complexity for no real gain here.
 
-## Entities (per team)
-- `calendar.<team>` – all team games (2 h events, all-day when time unknown)
-- `sensor.<team>_next_game` (timestamp) – attrs: opponent, home/away, venue, city, round, referees, game id
-- `sensor.<team>_next_opponent`
-- `sensor.<team>_last_game` – team-perspective score, attrs: opponent, date, partials
-- `sensor.<team>_last_game_outcome` (enum win/loss)
-- `sensor.<team>_position` – attrs: gp/w/l, points for/against, full table
-- `sensor.<team>_points`
+Config flow:
+1. **Season** (default: current; Aug+ = this year) + **category** (muži, ženy, U13…) + optional search text
+2. **Competition** – only those with ≥1 phase, labelled `name · category · league` (region isn't in the data; Prague leagues like "2.třída B" carry no marker)
+3. **Phase** – skipped if single
+4. **Team** – from table, falling back to schedule teams (playoff phases may have no table)
 
-## Polling
-2 requests per refresh, coordinator shared per phase.
-- default every 6 h (option, min 1 h)
-- game day: from tip-off + 2 h, every 30 min until result appears (max 6 h)
-- on error keep last data
+Escape hatch on step 1: paste a phase id or a cbf.cz URL containing `p=`.
 
-## Open questions
-Polling intervals OK? Extra sensors (games remaining, head-to-head)? Auto-follow playoff phases? English code + cs/en translations?
+- **Reconfigure flow** – re-point the entry to a new phase (new season / playoffs) keeping entities and history.
+- **Options flow** (`OptionsFlowWithReload`) – polling interval.
+- **Repair issue** when every game of the phase is played (season over) → suggests reconfigure.
+
+## Entities (one device per team, `DeviceEntryType.SERVICE`)
+| Entity | State | Notes |
+|---|---|---|
+| `calendar.<team>` | – | all games; UID = game id (reschedules move, not duplicate); location = venue, city; 2 h events, all-day "date TBC" when time unknown; unscheduled games omitted |
+| `sensor.<team>_next_game` | timestamp | `unknown` if date TBC (date in attribute); attrs: opponent, home/away, venue, city, round, game id, head-to-head vs that opponent this phase (results list + W/L) |
+| `sensor.<team>_next_opponent` | text | kept for simple dashboards/notifications |
+| `sensor.<team>_last_game` | "54:83" (team perspective) | attrs: opponent, date, home/away, quarter scores, venue |
+| `sensor.<team>_last_game_outcome` | enum `win`/`loss` | translated states |
+| `sensor.<team>_position` | int, measurement | attrs: gp, w, l, points for/against, diff; full table as attribute (≈1.5 kB) excluded from recorder |
+| `sensor.<team>_points` | int, measurement | table points |
+| `sensor.<team>_games_remaining` | int | unplayed games in the phase |
+| `sensor.<team>_streak` | e.g. `W2`, `L3` | from played games in date order |
+| `sensor.<team>_last_update` | timestamp, diagnostic | last successful fetch |
+
+Referee names: exposed only in calendar description and excluded from recorder; redacted in diagnostics.
+Next/last game sensors are recomputed at tip-off via `async_track_point_in_time`, independent of polling.
+
+## Polling (per entry coordinator, 2 requests per refresh)
+- **Fixed interval**, default **3 h**, configurable in options (min 1 h, max 24 h). No game-day logic.
+- Fetch `table.php` only when results in the schedule changed (≈ halves traffic).
+- Error: keep last data, `UpdateFailed`, retry next cycle.
+- Shared aiohttp session, descriptive User-Agent.
+- Expected load: ~8–16 requests/day.
+- Next/last game sensors still switch at tip-off via `async_track_point_in_time` (no extra requests).
+
+## Implementation notes (HA 2026.11, Python 3.14)
+- `entry.runtime_data` with typed `CbfConfigEntry`; `async_forward_entry_setups` / `async_unload_platforms`; setup raises `ConfigEntryNotReady` (translated) instead of returning False.
+- `DataUpdateCoordinator(config_entry=entry, always_update=False)`; dynamic `self.update_interval` set in `_async_update_data`.
+- `async_get_clientsession(hass)` injected into an HA-free `api.py` (unit-testable parser).
+- `has_entity_name` + `translation_key` everywhere; `PARALLEL_UPDATES = 0`; `DeviceInfo(...)` keyword construction only; `icons.json`; translated exceptions.
+- `step_id` passed on every form; no `show_advanced_options`; no update listener alongside `OptionsFlowWithReload`.
+- `manifest.json`: domain `cbf`, name, version, codeowners, documentation, issue_tracker, `config_flow`, `iot_class: cloud_polling`, `integration_type: service`, `requirements: [defusedxml]` if not bundled, `loggers`, `categories`.
+- Brand images in `custom_components/cbf/brand/` (icon.png at minimum).
+- `hacs.json` (`name`, `homeassistant: "2026.11.0"`), README (cs + en), CI: hassfest + `hacs/action`, pytest.
+- Tests: parser on real fixtures (incl. 0000-00-00, TBC times), config + reconfigure flow, coordinator interval logic.
+
+## Decisions (confirmed by user)
+- Fixed polling interval (default 3 h).
+- Extra sensors: games remaining, last update (diagnostic), head-to-head (attribute), streak.
+- New season / playoffs: manual reconfigure, prompted by a repair issue.
+- English code; cs + en UI translations; README in both languages.
+
+## Out of scope for v1
+Auto-following playoff phases, multiple teams sharing one fetch.

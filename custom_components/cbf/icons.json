@@ -1,0 +1,22 @@
+{
+  "entity": {
+    "sensor": {
+      "next_game": { "default": "mdi:basketball" },
+      "next_opponent": { "default": "mdi:account-group" },
+      "last_game": { "default": "mdi:scoreboard" },
+      "last_game_outcome": {
+        "default": "mdi:basketball-hoop",
+        "state": {
+          "win": "mdi:trophy",
+          "loss": "mdi:emoticon-sad-outline",
+          "draw": "mdi:scale-balance"
+        }
+      },
+      "position": { "default": "mdi:podium" },
+      "points": { "default": "mdi:counter" },
+      "games_remaining": { "default": "mdi:calendar-clock" },
+      "streak": { "default": "mdi:fire" },
+      "last_update": { "default": "mdi:update" }
+    }
+  }
+}
