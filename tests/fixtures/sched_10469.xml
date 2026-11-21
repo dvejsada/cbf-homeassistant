@@ -1,0 +1,1570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE games PUBLIC "-//CBF//divisions list//EN" "http://www.cbf.cz/xml/spec/sched.dtd">
+<games>
+<game>
+  <id>551822</id><xround></xround><round>1</round><div>5382</div><num>1</num><gdate>2026-10-07</gdate><gtime>18:30:00</gtime> 
+  <place>ZŠ Chelčického </place> <city>Praha 3</city> 
+  <ref ord="1"><id>30721</id><lastname>Lejčko</lastname><firstname>Jan</firstname></ref>
+  <ref ord="2"><id>24490</id><lastname>Moravcová</lastname><firstname>Lucie</firstname></ref>
+  <team guest="0"><id>7814</id><name>TJ Slavoj OS A</name><abbr>TJ Slavoj OS A</abbr></team>
+  <team guest="1"><id>7782</id><name>Sokol  Košíře</name><abbr>Sokol  Košíře </abbr></team>
+  <result>
+    <pts><a>1</a><b>2</b></pts><score><a>59</a><b>71</b></score>
+    <partials><partial ord="1"><a>14</a><b>22</b></partial><partial ord="2"><a>32</a><b>41</b></partial><partial ord="3"><a>41</a><b>52</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551823</id><xround></xround><round>1</round><div>5382</div><num>2</num><gdate>2026-10-08</gdate><gtime>20:20:00</gtime> 
+  <place>ZŠ Chelčického </place> <city>Praha 3</city> 
+  <ref ord="1"><id>81047</id><lastname>Pommer</lastname><firstname>Roman</firstname></ref>
+  <ref ord="2"><id>4545</id><lastname>Petrák</lastname><firstname>Jakub</firstname></ref>
+  <team guest="0"><id>15438</id><name>HB Basket</name><abbr>HB Basket</abbr></team>
+  <team guest="1"><id>13715</id><name>Spartak Hrdlořezy</name><abbr>Spartak Hrdlořezy</abbr></team>
+  <result>
+    <pts><a>2</a><b>1</b></pts><score><a>96</a><b>52</b></score>
+    <partials><partial ord="1"><a>21</a><b>8</b></partial><partial ord="2"><a>44</a><b>20</b></partial><partial ord="3"><a>71</a><b>36</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551824</id><xround></xround><round>1</round><div>5382</div><num>3</num><gdate>2026-10-08</gdate><gtime>19:40:00</gtime> 
+  <place>ZŠ Národních Hrdinů</place> <city>Praha 9</city> 
+  <ref ord="1"><id>104453</id><lastname>Procházka</lastname><firstname>Pavel</firstname></ref>
+  <ref ord="2"><id>90898</id><lastname>Kreuzová</lastname><firstname>Emma</firstname></ref>
+  <team guest="0"><id>13315</id><name>Sokol Dolní Počernice C</name><abbr>Sokol Dolní Počernice C</abbr></team>
+  <team guest="1"><id>11146</id><name>Slovan Advokacie Praha</name><abbr>Slovan Advokacie Praha</abbr></team>
+  <result>
+    <pts><a>1</a><b>2</b></pts><score><a>52</a><b>82</b></score>
+    <partials><partial ord="1"><a>10</a><b>22</b></partial><partial ord="2"><a>21</a><b>46</b></partial><partial ord="3"><a>45</a><b>68</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551825</id><xround></xround><round>1</round><div>5382</div><num>4</num><gdate>2026-10-06</gdate><gtime>18:00:00</gtime> 
+  <place>ZŠ TGM</place> <city>Praha 4</city> 
+  <ref ord="1"><id>88513</id><lastname>Lahoda</lastname><firstname>Radek</firstname></ref>
+  <ref ord="2"><id>46524</id><lastname>Kuděj</lastname><firstname>David</firstname></ref>
+  <team guest="0"><id>7759</id><name>Fenix Modřany B</name><abbr>Fenix Modřany B</abbr></team>
+  <team guest="1"><id>7780</id><name>Velká Ohrada</name><abbr>Velká Ohrada </abbr></team>
+  <result>
+    <pts><a>1</a><b>2</b></pts><score><a>52</a><b>80</b></score>
+    <partials><partial ord="1"><a>8</a><b>20</b></partial><partial ord="2"><a>24</a><b>42</b></partial><partial ord="3"><a>41</a><b>60</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551826</id><xround></xround><round>1</round><div>5382</div><num>5</num><gdate>2026-10-05</gdate><gtime>19:10:00</gtime> 
+  <place>Sportovní centrum UK</place> <city>Praha 10</city> 
+  <ref ord="1"><id>100965</id><lastname>Melzer</lastname><firstname>Vojtěch</firstname></ref>
+  <ref ord="2"><id>2730</id><lastname>Kunc</lastname><firstname>Martin</firstname></ref>
+  <team guest="0"><id>7811</id><name>VSK Iuridica B</name><abbr>VSK Iuridica B</abbr></team>
+  <team guest="1"><id>7770</id><name>BK Rotor Punkrác A</name><abbr>BK Rotor Punkrác A</abbr></team>
+  <result>
+    <pts><a>2</a><b>1</b></pts><score><a>58</a><b>49</b></score>
+    <partials><partial ord="1"><a>20</a><b>10</b></partial><partial ord="2"><a>32</a><b>26</b></partial><partial ord="3"><a>42</a><b>32</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551827</id><xround></xround><round>1</round><div>5382</div><num>6</num><gdate>2026-10-06</gdate><gtime>19:40:00</gtime> 
+  <place>ZŠ Weberova </place> <city>Praha 5</city> 
+  <ref ord="1"><id>94845</id><lastname>Mainuš</lastname><firstname>Michal</firstname></ref>
+  <ref ord="2"><id>100723</id><lastname>Mainuš</lastname><firstname>Jakub</firstname></ref>
+  <team guest="0"><id>7817</id><name>TJ ÚVN</name><abbr>TJ ÚVN </abbr></team>
+  <team guest="1"><id>11908</id><name>BC Přírodní Vědy B</name><abbr>BC Přírodní Vědy B</abbr></team>
+  <result>
+    <pts><a>1</a><b>2</b></pts><score><a>35</a><b>66</b></score>
+    <partials><partial ord="1"><a>4</a><b>19</b></partial><partial ord="2"><a>17</a><b>37</b></partial><partial ord="3"><a>29</a><b>54</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551828</id><xround></xround><round>2</round><div>5382</div><num>7</num><gdate>2026-10-13</gdate><gtime>19:45:00</gtime> 
+  <place>sokolovna Na Klamovce</place> <city>Praha 5</city> 
+  <ref ord="1"><id>94845</id><lastname>Mainuš</lastname><firstname>Michal</firstname></ref>
+  <ref ord="2"><id>217</id><lastname>Kohout</lastname><firstname>Radomír</firstname></ref>
+  <team guest="0"><id>7782</id><name>Sokol  Košíře</name><abbr>Sokol  Košíře </abbr></team>
+  <team guest="1"><id>11908</id><name>BC Přírodní Vědy B</name><abbr>BC Přírodní Vědy B</abbr></team>
+  <result>
+    <pts><a>1</a><b>2</b></pts><score><a>41</a><b>56</b></score>
+    <partials><partial ord="1"><a>11</a><b>10</b></partial><partial ord="2"><a>27</a><b>23</b></partial><partial ord="3"><a>36</a><b>35</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551829</id><xround></xround><round>2</round><div>5382</div><num>8</num><gdate>2026-10-15</gdate><gtime>19:10:00</gtime> 
+  <place>Sportovní hala Bítovská</place> <city>Praha 4</city> 
+  <ref ord="1"><id>88513</id><lastname>Lahoda</lastname><firstname>Radek</firstname></ref>
+  <ref ord="2"><id>115168</id><lastname>Ulrich</lastname><firstname>Petr</firstname></ref>
+  <team guest="0"><id>7770</id><name>BK Rotor Punkrác A</name><abbr>BK Rotor Punkrác A</abbr></team>
+  <team guest="1"><id>7817</id><name>TJ ÚVN</name><abbr>TJ ÚVN </abbr></team>
+  <result>
+    <pts><a>2</a><b>1</b></pts><score><a>73</a><b>61</b></score>
+    <partials><partial ord="1"><a>23</a><b>13</b></partial><partial ord="2"><a>37</a><b>32</b></partial><partial ord="3"><a>56</a><b>53</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551830</id><xround></xround><round>2</round><div>5382</div><num>9</num><gdate>2026-10-15</gdate><gtime>19:35:00</gtime> 
+  <place>ZŠ Mládí</place> <city>Praha 5</city> 
+  <ref ord="1"><id>217</id><lastname>Kohout</lastname><firstname>Radomír</firstname></ref>
+  <ref ord="2"><id>80894</id><lastname>Schambergerová</lastname><firstname>Barbora</firstname></ref>
+  <team guest="0"><id>7780</id><name>Velká Ohrada</name><abbr>Velká Ohrada </abbr></team>
+  <team guest="1"><id>7811</id><name>VSK Iuridica B</name><abbr>VSK Iuridica B</abbr></team>
+  <result>
+    <pts><a>2</a><b>1</b></pts><score><a>64</a><b>62</b></score>
+    <partials><partial ord="1"><a>8</a><b>16</b></partial><partial ord="2"><a>28</a><b>30</b></partial><partial ord="3"><a>46</a><b>42</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551831</id><xround></xround><round>2</round><div>5382</div><num>10</num><gdate>2026-10-13</gdate><gtime>20:00:00</gtime> 
+  <place>Hala Královka, plocha B</place> <city>Praha 7</city> 
+  <ref ord="1"><id>34629</id><lastname>Koc</lastname><firstname>Ondřej</firstname></ref>
+  <ref ord="2"><id>80894</id><lastname>Schambergerová</lastname><firstname>Barbora</firstname></ref>
+  <team guest="0"><id>11146</id><name>Slovan Advokacie Praha</name><abbr>Slovan Advokacie Praha</abbr></team>
+  <team guest="1"><id>7759</id><name>Fenix Modřany B</name><abbr>Fenix Modřany B</abbr></team>
+  <result>
+    <pts><a>2</a><b>1</b></pts><score><a>69</a><b>58</b></score>
+    <partials><partial ord="1"><a>14</a><b>11</b></partial><partial ord="2"><a>30</a><b>33</b></partial><partial ord="3"><a>46</a><b>43</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551832</id><xround></xround><round>2</round><div>5382</div><num>11</num><gdate>2026-10-15</gdate><gtime>17:35:00</gtime> 
+  <place>ZŠ Mochovská</place> <city>Praha 9</city> 
+  <ref ord="1"><id>81762</id><lastname>Dub</lastname><firstname>Michal</firstname></ref>
+  <ref ord="2"><id>100775</id><lastname>Křemenová</lastname><firstname>Kateřina</firstname></ref>
+  <team guest="0"><id>13715</id><name>Spartak Hrdlořezy</name><abbr>Spartak Hrdlořezy</abbr></team>
+  <team guest="1"><id>13315</id><name>Sokol Dolní Počernice C</name><abbr>Sokol Dolní Počernice C</abbr></team>
+  <result>
+    <pts><a>1</a><b>2</b></pts><score><a>49</a><b>59</b></score>
+    <partials><partial ord="1"><a>13</a><b>14</b></partial><partial ord="2"><a>23</a><b>27</b></partial><partial ord="3"><a>31</a><b>40</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551833</id><xround></xround><round>2</round><div>5382</div><num>12</num><gdate>2026-10-14</gdate><gtime>18:30:00</gtime> 
+  <place>ZŠ Chelčického </place> <city>Praha 3</city> 
+  <ref ord="1"><id>30721</id><lastname>Lejčko</lastname><firstname>Jan</firstname></ref>
+  <ref ord="2"><id>81047</id><lastname>Pommer</lastname><firstname>Roman</firstname></ref>
+  <team guest="0"><id>7814</id><name>TJ Slavoj OS A</name><abbr>TJ Slavoj OS A</abbr></team>
+  <team guest="1"><id>15438</id><name>HB Basket</name><abbr>HB Basket</abbr></team>
+  <result>
+    <pts><a>1</a><b>2</b></pts><score><a>57</a><b>62</b></score>
+    <partials><partial ord="1"><a>16</a><b>12</b></partial><partial ord="2"><a>33</a><b>25</b></partial><partial ord="3"><a>42</a><b>38</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551834</id><xround></xround><round>3</round><div>5382</div><num>13</num><gdate>2026-10-22</gdate><gtime>20:20:00</gtime> 
+  <place>ZŠ Chelčického </place> <city>Praha 3</city> 
+  <ref ord="1"><id>4545</id><lastname>Petrák</lastname><firstname>Jakub</firstname></ref>
+  <ref ord="2"><id>2668</id><lastname>Mezera</lastname><firstname>Václav</firstname></ref>
+  <team guest="0"><id>15438</id><name>HB Basket</name><abbr>HB Basket</abbr></team>
+  <team guest="1"><id>7782</id><name>Sokol  Košíře</name><abbr>Sokol  Košíře </abbr></team>
+  <result>
+    <pts><a>2</a><b>1</b></pts><score><a>73</a><b>61</b></score>
+    <partials><partial ord="1"><a>16</a><b>9</b></partial><partial ord="2"><a>34</a><b>20</b></partial><partial ord="3"><a>53</a><b>34</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551835</id><xround></xround><round>3</round><div>5382</div><num>14</num><gdate>2026-10-22</gdate><gtime>19:40:00</gtime> 
+  <place>ZŠ Národních Hrdinů</place> <city>Praha 9</city> 
+  <ref ord="1"><id>90898</id><lastname>Kreuzová</lastname><firstname>Emma</firstname></ref>
+  <ref ord="2"><id>104453</id><lastname>Procházka</lastname><firstname>Pavel</firstname></ref>
+  <team guest="0"><id>13315</id><name>Sokol Dolní Počernice C</name><abbr>Sokol Dolní Počernice C</abbr></team>
+  <team guest="1"><id>7814</id><name>TJ Slavoj OS A</name><abbr>TJ Slavoj OS A</abbr></team>
+  <result>
+    <pts><a>1</a><b>2</b></pts><score><a>45</a><b>70</b></score>
+    <partials><partial ord="1"><a>7</a><b>19</b></partial><partial ord="2"><a>23</a><b>42</b></partial><partial ord="3"><a>32</a><b>49</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551836</id><xround></xround><round>3</round><div>5382</div><num>15</num><gdate>2026-10-20</gdate><gtime>18:00:00</gtime> 
+  <place>ZŠ TGM</place> <city>Praha 4</city> 
+  <ref ord="1"><id>3889</id><lastname>Bukovský</lastname><firstname>Michal</firstname></ref>
+  <ref ord="2"><id>106092</id><lastname>Jeřáb</lastname><firstname>Vojtěch</firstname></ref>
+  <team guest="0"><id>7759</id><name>Fenix Modřany B</name><abbr>Fenix Modřany B</abbr></team>
+  <team guest="1"><id>13715</id><name>Spartak Hrdlořezy</name><abbr>Spartak Hrdlořezy</abbr></team>
+  <result>
+    <pts><a>1</a><b>2</b></pts><score><a>59</a><b>65</b></score>
+    <partials><partial ord="1"><a>12</a><b>16</b></partial><partial ord="2"><a>30</a><b>29</b></partial><partial ord="3"><a>50</a><b>45</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551837</id><xround></xround><round>3</round><div>5382</div><num>16</num><gdate>2026-10-19</gdate><gtime>19:10:00</gtime> 
+  <place>Sportovní centrum UK</place> <city>Praha 10</city> 
+  <ref ord="1"><id>2730</id><lastname>Kunc</lastname><firstname>Martin</firstname></ref>
+  <ref ord="2"><id>93367</id><lastname>Pešout</lastname><firstname>Vincent</firstname></ref>
+  <team guest="0"><id>7811</id><name>VSK Iuridica B</name><abbr>VSK Iuridica B</abbr></team>
+  <team guest="1"><id>11146</id><name>Slovan Advokacie Praha</name><abbr>Slovan Advokacie Praha</abbr></team>
+  <result>
+    <pts><a>2</a><b>1</b></pts><score><a>76</a><b>47</b></score>
+    <partials><partial ord="1"><a>21</a><b>11</b></partial><partial ord="2"><a>36</a><b>21</b></partial><partial ord="3"><a>58</a><b>29</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551838</id><xround></xround><round>3</round><div>5382</div><num>17</num><gdate>2026-10-20</gdate><gtime>19:40:00</gtime> 
+  <place>ZŠ Weberova </place> <city>Praha 5</city> 
+  <ref ord="1"><id>94845</id><lastname>Mainuš</lastname><firstname>Michal</firstname></ref>
+  <ref ord="2"><id>100723</id><lastname>Mainuš</lastname><firstname>Jakub</firstname></ref>
+  <team guest="0"><id>7817</id><name>TJ ÚVN</name><abbr>TJ ÚVN </abbr></team>
+  <team guest="1"><id>7780</id><name>Velká Ohrada</name><abbr>Velká Ohrada </abbr></team>
+  <result>
+    <pts><a>1</a><b>2</b></pts><score><a>39</a><b>100</b></score>
+    <partials><partial ord="1"><a>11</a><b>17</b></partial><partial ord="2"><a>20</a><b>49</b></partial><partial ord="3"><a>33</a><b>72</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551839</id><xround></xround><round>3</round><div>5382</div><num>18</num><gdate>2026-10-21</gdate><gtime>17:50:00</gtime> 
+  <place>Sportovní centrum UK</place> <city>Praha 10</city> 
+  <ref ord="1"><id>3889</id><lastname>Bukovský</lastname><firstname>Michal</firstname></ref>
+  <ref ord="2"><id>5661</id><lastname>Kucharič</lastname><firstname>Milan</firstname></ref>
+  <team guest="0"><id>11908</id><name>BC Přírodní Vědy B</name><abbr>BC Přírodní Vědy B</abbr></team>
+  <team guest="1"><id>7770</id><name>BK Rotor Punkrác A</name><abbr>BK Rotor Punkrác A</abbr></team>
+  <result>
+    <pts><a>2</a><b>1</b></pts><score><a>71</a><b>68</b></score>
+    <partials><partial ord="1"><a>11</a><b>24</b></partial><partial ord="2"><a>34</a><b>35</b></partial><partial ord="3"><a>49</a><b>55</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551840</id><xround></xround><round>4</round><div>5382</div><num>19</num><gdate>2026-10-27</gdate><gtime>19:45:00</gtime> 
+  <place>sokolovna Na Klamovce</place> <city>Praha 5</city> 
+  <ref ord="1"><id>94845</id><lastname>Mainuš</lastname><firstname>Michal</firstname></ref>
+  <ref ord="2"><id>217</id><lastname>Kohout</lastname><firstname>Radomír</firstname></ref>
+  <team guest="0"><id>7782</id><name>Sokol  Košíře</name><abbr>Sokol  Košíře </abbr></team>
+  <team guest="1"><id>7770</id><name>BK Rotor Punkrác A</name><abbr>BK Rotor Punkrác A</abbr></team>
+  <result>
+    <pts><a>2</a><b>1</b></pts><score><a>80</a><b>74</b></score>
+    <partials><partial ord="1"><a>20</a><b>17</b></partial><partial ord="2"><a>41</a><b>35</b></partial><partial ord="3"><a>65</a><b>54</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551841</id><xround></xround><round>4</round><div>5382</div><num>20</num><gdate>2027-01-07</gdate><gtime>19:35:00</gtime> 
+  <place>ZŠ Mládí</place> <city>Praha 5</city> 
+  <team guest="0"><id>7780</id><name>Velká Ohrada</name><abbr>Velká Ohrada </abbr></team>
+  <team guest="1"><id>11908</id><name>BC Přírodní Vědy B</name><abbr>BC Přírodní Vědy B</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551842</id><xround></xround><round>4</round><div>5382</div><num>21</num><gdate>2026-10-27</gdate><gtime>20:00:00</gtime> 
+  <place>Hala Královka, plocha B</place> <city>Praha 7</city> 
+  <ref ord="1"><id>93367</id><lastname>Pešout</lastname><firstname>Vincent</firstname></ref>
+  <ref ord="2"><id>103469</id><lastname>Fajkus</lastname><firstname>Lukáš</firstname></ref>
+  <team guest="0"><id>11146</id><name>Slovan Advokacie Praha</name><abbr>Slovan Advokacie Praha</abbr></team>
+  <team guest="1"><id>7817</id><name>TJ ÚVN</name><abbr>TJ ÚVN </abbr></team>
+  <result>
+    <pts><a>1</a><b>2</b></pts><score><a>44</a><b>50</b></score>
+    <partials><partial ord="1"><a>8</a><b>12</b></partial><partial ord="2"><a>29</a><b>30</b></partial><partial ord="3"><a>36</a><b>35</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551843</id><xround></xround><round>4</round><div>5382</div><num>22</num><gdate>2027-01-07</gdate><gtime>17:35:00</gtime> 
+  <place>ZŠ Mochovská</place> <city>Praha 9</city> 
+  <team guest="0"><id>13715</id><name>Spartak Hrdlořezy</name><abbr>Spartak Hrdlořezy</abbr></team>
+  <team guest="1"><id>7811</id><name>VSK Iuridica B</name><abbr>VSK Iuridica B</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551844</id><xround></xround><round>4</round><div>5382</div><num>23</num><gdate>2027-01-06</gdate><gtime>18:30:00</gtime> 
+  <place>ZŠ Chelčického </place> <city>Praha 3</city> 
+  <team guest="0"><id>7814</id><name>TJ Slavoj OS A</name><abbr>TJ Slavoj OS A</abbr></team>
+  <team guest="1"><id>7759</id><name>Fenix Modřany B</name><abbr>Fenix Modřany B</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551845</id><xround></xround><round>4</round><div>5382</div><num>24</num><gdate>2027-01-07</gdate><gtime>20:20:00</gtime> 
+  <place>ZŠ Chelčického </place> <city>Praha 3</city> 
+  <team guest="0"><id>15438</id><name>HB Basket</name><abbr>HB Basket</abbr></team>
+  <team guest="1"><id>13315</id><name>Sokol Dolní Počernice C</name><abbr>Sokol Dolní Počernice C</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551846</id><xround></xround><round>5</round><div>5382</div><num>25</num><gdate>2026-11-05</gdate><gtime>19:40:00</gtime> 
+  <place>ZŠ Národních Hrdinů</place> <city>Praha 9</city> 
+  <ref ord="1"><id>90898</id><lastname>Kreuzová</lastname><firstname>Emma</firstname></ref>
+  <ref ord="2"><id>104453</id><lastname>Procházka</lastname><firstname>Pavel</firstname></ref>
+  <team guest="0"><id>13315</id><name>Sokol Dolní Počernice C</name><abbr>Sokol Dolní Počernice C</abbr></team>
+  <team guest="1"><id>7782</id><name>Sokol  Košíře</name><abbr>Sokol  Košíře </abbr></team>
+  <result>
+    <pts><a>1</a><b>2</b></pts><score><a>50</a><b>67</b></score>
+    <partials><partial ord="1"><a>15</a><b>14</b></partial><partial ord="2"><a>26</a><b>31</b></partial><partial ord="3"><a>39</a><b>52</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551847</id><xround></xround><round>5</round><div>5382</div><num>26</num><gdate>2026-11-03</gdate><gtime>18:00:00</gtime> 
+  <place>ZŠ TGM</place> <city>Praha 4</city> 
+  <ref ord="1"><id>132976</id><lastname>Ballay</lastname><firstname>William</firstname></ref>
+  <ref ord="2"><id>140470</id><lastname>Kolář</lastname><firstname>Petr</firstname></ref>
+  <team guest="0"><id>7759</id><name>Fenix Modřany B</name><abbr>Fenix Modřany B</abbr></team>
+  <team guest="1"><id>15438</id><name>HB Basket</name><abbr>HB Basket</abbr></team>
+  <result>
+    <pts><a>1</a><b>2</b></pts><score><a>38</a><b>65</b></score>
+    <partials><partial ord="1"><a>6</a><b>18</b></partial><partial ord="2"><a>24</a><b>30</b></partial><partial ord="3"><a>33</a><b>48</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551848</id><xround></xround><round>5</round><div>5382</div><num>27</num><gdate>2026-11-02</gdate><gtime>19:10:00</gtime> 
+  <place>Sportovní centrum UK</place> <city>Praha 10</city> 
+  <ref ord="1"><id>115166</id><lastname>Ulrich</lastname><firstname>Karel</firstname></ref>
+  <ref ord="2"><id>3889</id><lastname>Bukovský</lastname><firstname>Michal</firstname></ref>
+  <team guest="0"><id>7811</id><name>VSK Iuridica B</name><abbr>VSK Iuridica B</abbr></team>
+  <team guest="1"><id>7814</id><name>TJ Slavoj OS A</name><abbr>TJ Slavoj OS A</abbr></team>
+  <result>
+    <pts><a>2</a><b>1</b></pts><score><a>69</a><b>46</b></score>
+    <partials><partial ord="1"><a>13</a><b>12</b></partial><partial ord="2"><a>30</a><b>24</b></partial><partial ord="3"><a>49</a><b>37</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551849</id><xround></xround><round>5</round><div>5382</div><num>28</num><gdate>2026-11-03</gdate><gtime>19:40:00</gtime> 
+  <place>ZŠ Weberova </place> <city>Praha 5</city> 
+  <ref ord="1"><id>94845</id><lastname>Mainuš</lastname><firstname>Michal</firstname></ref>
+  <ref ord="2"><id>93367</id><lastname>Pešout</lastname><firstname>Vincent</firstname></ref>
+  <team guest="0"><id>7817</id><name>TJ ÚVN</name><abbr>TJ ÚVN </abbr></team>
+  <team guest="1"><id>13715</id><name>Spartak Hrdlořezy</name><abbr>Spartak Hrdlořezy</abbr></team>
+  <result>
+    <pts><a>2</a><b>1</b></pts><score><a>51</a><b>44</b></score>
+    <partials><partial ord="1"><a>8</a><b>14</b></partial><partial ord="2"><a>28</a><b>32</b></partial><partial ord="3"><a>36</a><b>37</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551850</id><xround></xround><round>5</round><div>5382</div><num>29</num><gdate>2026-11-04</gdate><gtime>17:50:00</gtime> 
+  <place>Sportovní centrum UK</place> <city>Praha 10</city> 
+  <ref ord="1"><id>87450</id><lastname>Šuláková</lastname><firstname>Pavlína</firstname></ref>
+  <ref ord="2"><id>24490</id><lastname>Moravcová</lastname><firstname>Lucie</firstname></ref>
+  <team guest="0"><id>11908</id><name>BC Přírodní Vědy B</name><abbr>BC Přírodní Vědy B</abbr></team>
+  <team guest="1"><id>11146</id><name>Slovan Advokacie Praha</name><abbr>Slovan Advokacie Praha</abbr></team>
+  <result>
+    <pts><a>1</a><b>2</b></pts><score><a>32</a><b>43</b></score>
+    <partials><partial ord="1"><a>10</a><b>13</b></partial><partial ord="2"><a>18</a><b>24</b></partial><partial ord="3"><a>28</a><b>30</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551851</id><xround></xround><round>5</round><div>5382</div><num>30</num><gdate>2026-11-05</gdate><gtime>19:10:00</gtime> 
+  <place>Sportovní hala Bítovská</place> <city>Praha 4</city> 
+  <ref ord="1"><id>99823</id><lastname>Soudková</lastname><firstname>Magdalena</firstname></ref>
+  <ref ord="2"><id>94771</id><lastname>Sýtař</lastname><firstname>Jan</firstname></ref>
+  <team guest="0"><id>7770</id><name>BK Rotor Punkrác A</name><abbr>BK Rotor Punkrác A</abbr></team>
+  <team guest="1"><id>7780</id><name>Velká Ohrada</name><abbr>Velká Ohrada </abbr></team>
+  <result>
+    <pts><a>2</a><b>1</b></pts><score><a>69</a><b>49</b></score>
+    <partials><partial ord="1"><a>15</a><b>20</b></partial><partial ord="2"><a>34</a><b>34</b></partial><partial ord="3"><a>48</a><b>47</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551852</id><xround></xround><round>6</round><div>5382</div><num>31</num><gdate>2026-11-10</gdate><gtime>19:45:00</gtime> 
+  <place>sokolovna Na Klamovce</place> <city>Praha 5</city> 
+  <ref ord="1"><id>217</id><lastname>Kohout</lastname><firstname>Radomír</firstname></ref>
+  <ref ord="2"><id>100723</id><lastname>Mainuš</lastname><firstname>Jakub</firstname></ref>
+  <team guest="0"><id>7782</id><name>Sokol  Košíře</name><abbr>Sokol  Košíře </abbr></team>
+  <team guest="1"><id>7780</id><name>Velká Ohrada</name><abbr>Velká Ohrada </abbr></team>
+  <result>
+    <pts><a>1</a><b>2</b></pts><score><a>51</a><b>85</b></score>
+    <partials><partial ord="1"><a>7</a><b>15</b></partial><partial ord="2"><a>24</a><b>39</b></partial><partial ord="3"><a>39</a><b>63</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551853</id><xround></xround><round>6</round><div>5382</div><num>32</num><gdate>2026-11-10</gdate><gtime>20:00:00</gtime> 
+  <place>Hala Královka, plocha B</place> <city>Praha 7</city> 
+  <ref ord="1"><id>2668</id><lastname>Mezera</lastname><firstname>Václav</firstname></ref>
+  <ref ord="2"><id>30721</id><lastname>Lejčko</lastname><firstname>Jan</firstname></ref>
+  <team guest="0"><id>11146</id><name>Slovan Advokacie Praha</name><abbr>Slovan Advokacie Praha</abbr></team>
+  <team guest="1"><id>7770</id><name>BK Rotor Punkrác A</name><abbr>BK Rotor Punkrác A</abbr></team>
+  <result>
+    <pts><a>2</a><b>1</b></pts><score><a>50</a><b>45</b></score>
+    <partials><partial ord="1"><a>13</a><b>3</b></partial><partial ord="2"><a>22</a><b>14</b></partial><partial ord="3"><a>34</a><b>27</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551854</id><xround></xround><round>6</round><div>5382</div><num>33</num><gdate>2026-11-12</gdate><gtime>17:35:00</gtime> 
+  <place>ZŠ Mochovská</place> <city>Praha 9</city> 
+  <ref ord="1"><id>37812</id><lastname>Billík</lastname><firstname>Dennis</firstname></ref>
+  <ref ord="2"><id>81762</id><lastname>Dub</lastname><firstname>Michal</firstname></ref>
+  <team guest="0"><id>13715</id><name>Spartak Hrdlořezy</name><abbr>Spartak Hrdlořezy</abbr></team>
+  <team guest="1"><id>11908</id><name>BC Přírodní Vědy B</name><abbr>BC Přírodní Vědy B</abbr></team>
+  <result>
+    <pts><a>1</a><b>2</b></pts><score><a>44</a><b>66</b></score>
+    <partials><partial ord="1"><a>11</a><b>19</b></partial><partial ord="2"><a>17</a><b>33</b></partial><partial ord="3"><a>34</a><b>51</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551855</id><xround></xround><round>6</round><div>5382</div><num>34</num><gdate>2026-11-11</gdate><gtime>18:30:00</gtime> 
+  <place>ZŠ Chelčického </place> <city>Praha 3</city> 
+  <ref ord="1"><id>81047</id><lastname>Pommer</lastname><firstname>Roman</firstname></ref>
+  <ref ord="2"><id>103469</id><lastname>Fajkus</lastname><firstname>Lukáš</firstname></ref>
+  <team guest="0"><id>7814</id><name>TJ Slavoj OS A</name><abbr>TJ Slavoj OS A</abbr></team>
+  <team guest="1"><id>7817</id><name>TJ ÚVN</name><abbr>TJ ÚVN </abbr></team>
+  <result>
+    <pts><a>2</a><b>1</b></pts><score><a>97</a><b>47</b></score>
+    <partials><partial ord="1"><a>21</a><b>16</b></partial><partial ord="2"><a>48</a><b>30</b></partial><partial ord="3"><a>69</a><b>42</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551856</id><xround></xround><round>6</round><div>5382</div><num>35</num><gdate>0000-00-00</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Chelčického </place> <city>Praha 3</city> 
+  <team guest="0"><id>15438</id><name>HB Basket</name><abbr>HB Basket</abbr></team>
+  <team guest="1"><id>7811</id><name>VSK Iuridica B</name><abbr>VSK Iuridica B</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551857</id><xround></xround><round>6</round><div>5382</div><num>36</num><gdate>2026-11-12</gdate><gtime>19:40:00</gtime> 
+  <place>ZŠ Národních Hrdinů</place> <city>Praha 9</city> 
+  <ref ord="1"><id>90898</id><lastname>Kreuzová</lastname><firstname>Emma</firstname></ref>
+  <ref ord="2"><id>46524</id><lastname>Kuděj</lastname><firstname>David</firstname></ref>
+  <team guest="0"><id>13315</id><name>Sokol Dolní Počernice C</name><abbr>Sokol Dolní Počernice C</abbr></team>
+  <team guest="1"><id>7759</id><name>Fenix Modřany B</name><abbr>Fenix Modřany B</abbr></team>
+  <result>
+    <pts><a>1</a><b>2</b></pts><score><a>55</a><b>61</b></score>
+    <partials><partial ord="1"><a>9</a><b>16</b></partial><partial ord="2"><a>16</a><b>36</b></partial><partial ord="3"><a>36</a><b>51</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551858</id><xround></xround><round>7</round><div>5382</div><num>37</num><gdate>2026-11-17</gdate><gtime>18:00:00</gtime> 
+  <place>ZŠ TGM</place> <city>Praha 4</city> 
+  <ref ord="1"><id>34629</id><lastname>Koc</lastname><firstname>Ondřej</firstname></ref>
+  <ref ord="2"><id>100723</id><lastname>Mainuš</lastname><firstname>Jakub</firstname></ref>
+  <team guest="0"><id>7759</id><name>Fenix Modřany B</name><abbr>Fenix Modřany B</abbr></team>
+  <team guest="1"><id>7782</id><name>Sokol  Košíře</name><abbr>Sokol  Košíře </abbr></team>
+  <result>
+    <pts><a>2</a><b>1</b></pts><score><a>79</a><b>50</b></score>
+    <partials><partial ord="1"><a>11</a><b>9</b></partial><partial ord="2"><a>30</a><b>22</b></partial><partial ord="3"><a>61</a><b>35</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551859</id><xround></xround><round>7</round><div>5382</div><num>38</num><gdate>2027-01-04</gdate><gtime>19:10:00</gtime> 
+  <place>Sportovní centrum UK</place> <city>Praha 10</city> 
+  <team guest="0"><id>7811</id><name>VSK Iuridica B</name><abbr>VSK Iuridica B</abbr></team>
+  <team guest="1"><id>13315</id><name>Sokol Dolní Počernice C</name><abbr>Sokol Dolní Počernice C</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551860</id><xround></xround><round>7</round><div>5382</div><num>39</num><gdate>2026-11-19</gdate><gtime>20:20:00</gtime> 
+  <place>ZŠ Chelčického </place> <city>Praha 3</city> 
+  <ref ord="1"><id>81047</id><lastname>Pommer</lastname><firstname>Roman</firstname></ref>
+  <ref ord="2"><id>129280</id><lastname>Novotný</lastname><firstname>Kryštof</firstname></ref>
+  <team guest="0"><id>15438</id><name>HB Basket</name><abbr>HB Basket</abbr></team>
+  <team guest="1"><id>7817</id><name>TJ ÚVN</name><abbr>TJ ÚVN </abbr></team>
+  <result>
+    <pts><a>2</a><b>1</b></pts><score><a>83</a><b>54</b></score>
+    <partials><partial ord="1"><a>23</a><b>14</b></partial><partial ord="2"><a>41</a><b>23</b></partial><partial ord="3"><a>63</a><b>40</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551861</id><xround></xround><round>7</round><div>5382</div><num>40</num><gdate>2026-11-18</gdate><gtime>17:50:00</gtime> 
+  <place>Sportovní centrum UK</place> <city>Praha 10</city> 
+  <ref ord="1"><id>100965</id><lastname>Melzer</lastname><firstname>Vojtěch</firstname></ref>
+  <ref ord="2"><id>3889</id><lastname>Bukovský</lastname><firstname>Michal</firstname></ref>
+  <team guest="0"><id>11908</id><name>BC Přírodní Vědy B</name><abbr>BC Přírodní Vědy B</abbr></team>
+  <team guest="1"><id>7814</id><name>TJ Slavoj OS A</name><abbr>TJ Slavoj OS A</abbr></team>
+  <result>
+    <pts><a>2</a><b>1</b></pts><score><a>71</a><b>62</b></score>
+    <partials><partial ord="1"><a>15</a><b>13</b></partial><partial ord="2"><a>33</a><b>31</b></partial><partial ord="3"><a>60</a><b>46</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551862</id><xround></xround><round>7</round><div>5382</div><num>41</num><gdate>2026-11-19</gdate><gtime>19:10:00</gtime> 
+  <place>Sportovní hala Bítovská</place> <city>Praha 4</city> 
+  <ref ord="1"><id>217</id><lastname>Kohout</lastname><firstname>Radomír</firstname></ref>
+  <ref ord="2"><id>2436</id><lastname>Kotrbatá</lastname><firstname>Zuzana</firstname></ref>
+  <team guest="0"><id>7770</id><name>BK Rotor Punkrác A</name><abbr>BK Rotor Punkrác A</abbr></team>
+  <team guest="1"><id>13715</id><name>Spartak Hrdlořezy</name><abbr>Spartak Hrdlořezy</abbr></team>
+  <result>
+    <pts><a>2</a><b>1</b></pts><score><a>72</a><b>55</b></score>
+    <partials><partial ord="1"><a>14</a><b>7</b></partial><partial ord="2"><a>30</a><b>25</b></partial><partial ord="3"><a>49</a><b>38</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551863</id><xround></xround><round>7</round><div>5382</div><num>42</num><gdate>2026-11-19</gdate><gtime>19:35:00</gtime> 
+  <place>ZŠ Mládí</place> <city>Praha 5</city> 
+  <ref ord="1"><id>3026</id><lastname>Svoboda</lastname><firstname>Luděk</firstname></ref>
+  <ref ord="2"><id>80894</id><lastname>Schambergerová</lastname><firstname>Barbora</firstname></ref>
+  <team guest="0"><id>7780</id><name>Velká Ohrada</name><abbr>Velká Ohrada </abbr></team>
+  <team guest="1"><id>11146</id><name>Slovan Advokacie Praha</name><abbr>Slovan Advokacie Praha</abbr></team>
+  <result>
+    <pts><a>2</a><b>1</b></pts><score><a>92</a><b>39</b></score>
+    <partials><partial ord="1"><a>19</a><b>10</b></partial><partial ord="2"><a>42</a><b>17</b></partial><partial ord="3"><a>61</a><b>29</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551864</id><xround></xround><round>8</round><div>5382</div><num>43</num><gdate>2026-11-24</gdate><gtime>19:45:00</gtime> 
+  <place>sokolovna Na Klamovce</place> <city>Praha 5</city> 
+  <ref ord="1"><id>100723</id><lastname>Mainuš</lastname><firstname>Jakub</firstname></ref>
+  <ref ord="2"><id>80894</id><lastname>Schambergerová</lastname><firstname>Barbora</firstname></ref>
+  <team guest="0"><id>7782</id><name>Sokol  Košíře</name><abbr>Sokol  Košíře </abbr></team>
+  <team guest="1"><id>11146</id><name>Slovan Advokacie Praha</name><abbr>Slovan Advokacie Praha</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551865</id><xround></xround><round>8</round><div>5382</div><num>44</num><gdate>2026-11-26</gdate><gtime>17:35:00</gtime> 
+  <place>ZŠ Mochovská</place> <city>Praha 9</city> 
+  <ref ord="1"><id>46524</id><lastname>Kuděj</lastname><firstname>David</firstname></ref>
+  <ref ord="2"><id>110687</id><lastname>Križanská</lastname><firstname>Ema</firstname></ref>
+  <team guest="0"><id>13715</id><name>Spartak Hrdlořezy</name><abbr>Spartak Hrdlořezy</abbr></team>
+  <team guest="1"><id>7780</id><name>Velká Ohrada</name><abbr>Velká Ohrada </abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551866</id><xround></xround><round>8</round><div>5382</div><num>45</num><gdate>2026-11-25</gdate><gtime>18:30:00</gtime> 
+  <place>ZŠ Chelčického </place> <city>Praha 3</city> 
+  <ref ord="1"><id>30721</id><lastname>Lejčko</lastname><firstname>Jan</firstname></ref>
+  <ref ord="2"><id>34629</id><lastname>Koc</lastname><firstname>Ondřej</firstname></ref>
+  <team guest="0"><id>7814</id><name>TJ Slavoj OS A</name><abbr>TJ Slavoj OS A</abbr></team>
+  <team guest="1"><id>7770</id><name>BK Rotor Punkrác A</name><abbr>BK Rotor Punkrác A</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551867</id><xround></xround><round>8</round><div>5382</div><num>46</num><gdate>2026-11-26</gdate><gtime>20:20:00</gtime> 
+  <place>ZŠ Chelčického </place> <city>Praha 3</city> 
+  <ref ord="1"><id>30721</id><lastname>Lejčko</lastname><firstname>Jan</firstname></ref>
+  <ref ord="2"><id>4545</id><lastname>Petrák</lastname><firstname>Jakub</firstname></ref>
+  <team guest="0"><id>15438</id><name>HB Basket</name><abbr>HB Basket</abbr></team>
+  <team guest="1"><id>11908</id><name>BC Přírodní Vědy B</name><abbr>BC Přírodní Vědy B</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551868</id><xround></xround><round>8</round><div>5382</div><num>47</num><gdate>2026-11-26</gdate><gtime>19:40:00</gtime> 
+  <place>ZŠ Národních Hrdinů</place> <city>Praha 9</city> 
+  <ref ord="1"><id>90898</id><lastname>Kreuzová</lastname><firstname>Emma</firstname></ref>
+  <ref ord="2"><id>100775</id><lastname>Křemenová</lastname><firstname>Kateřina</firstname></ref>
+  <team guest="0"><id>13315</id><name>Sokol Dolní Počernice C</name><abbr>Sokol Dolní Počernice C</abbr></team>
+  <team guest="1"><id>7817</id><name>TJ ÚVN</name><abbr>TJ ÚVN </abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551869</id><xround></xround><round>8</round><div>5382</div><num>48</num><gdate>2026-11-24</gdate><gtime>18:00:00</gtime> 
+  <place>ZŠ TGM</place> <city>Praha 4</city> 
+  <ref ord="1"><id>87450</id><lastname>Šuláková</lastname><firstname>Pavlína</firstname></ref>
+  <ref ord="2"><id>140470</id><lastname>Kolář</lastname><firstname>Petr</firstname></ref>
+  <team guest="0"><id>7759</id><name>Fenix Modřany B</name><abbr>Fenix Modřany B</abbr></team>
+  <team guest="1"><id>7811</id><name>VSK Iuridica B</name><abbr>VSK Iuridica B</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551870</id><xround></xround><round>9</round><div>5382</div><num>49</num><gdate>2026-11-30</gdate><gtime>19:10:00</gtime> 
+  <place>Sportovní centrum UK</place> <city>Praha 10</city> 
+  <ref ord="1"><id>2730</id><lastname>Kunc</lastname><firstname>Martin</firstname></ref>
+  <ref ord="2"><id>88513</id><lastname>Lahoda</lastname><firstname>Radek</firstname></ref>
+  <team guest="0"><id>7811</id><name>VSK Iuridica B</name><abbr>VSK Iuridica B</abbr></team>
+  <team guest="1"><id>7782</id><name>Sokol  Košíře</name><abbr>Sokol  Košíře </abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551871</id><xround></xround><round>9</round><div>5382</div><num>50</num><gdate>2026-12-01</gdate><gtime>19:40:00</gtime> 
+  <place>ZŠ Weberova </place> <city>Praha 5</city> 
+  <ref ord="1"><id>100723</id><lastname>Mainuš</lastname><firstname>Jakub</firstname></ref>
+  <ref ord="2"><id>94845</id><lastname>Mainuš</lastname><firstname>Michal</firstname></ref>
+  <team guest="0"><id>7817</id><name>TJ ÚVN</name><abbr>TJ ÚVN </abbr></team>
+  <team guest="1"><id>7759</id><name>Fenix Modřany B</name><abbr>Fenix Modřany B</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551872</id><xround></xround><round>9</round><div>5382</div><num>51</num><gdate>2026-12-02</gdate><gtime>17:50:00</gtime> 
+  <place>Sportovní centrum UK</place> <city>Praha 10</city> 
+  <ref ord="1"><id>100965</id><lastname>Melzer</lastname><firstname>Vojtěch</firstname></ref>
+  <ref ord="2"><id>99792</id><lastname>Kalaš</lastname><firstname>Kryštof</firstname></ref>
+  <team guest="0"><id>11908</id><name>BC Přírodní Vědy B</name><abbr>BC Přírodní Vědy B</abbr></team>
+  <team guest="1"><id>13315</id><name>Sokol Dolní Počernice C</name><abbr>Sokol Dolní Počernice C</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551873</id><xround></xround><round>9</round><div>5382</div><num>52</num><gdate>2026-12-03</gdate><gtime>19:10:00</gtime> 
+  <place>Sportovní hala Bítovská</place> <city>Praha 4</city> 
+  <ref ord="1"><id>88513</id><lastname>Lahoda</lastname><firstname>Radek</firstname></ref>
+  <ref ord="2"><id>1516</id><lastname>Tesárek</lastname><firstname>Vojtěch</firstname></ref>
+  <team guest="0"><id>7770</id><name>BK Rotor Punkrác A</name><abbr>BK Rotor Punkrác A</abbr></team>
+  <team guest="1"><id>15438</id><name>HB Basket</name><abbr>HB Basket</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551874</id><xround></xround><round>9</round><div>5382</div><num>53</num><gdate>2026-12-03</gdate><gtime>19:35:00</gtime> 
+  <place>ZŠ Mládí</place> <city>Praha 5</city> 
+  <ref ord="1"><id>217</id><lastname>Kohout</lastname><firstname>Radomír</firstname></ref>
+  <ref ord="2"><id>80894</id><lastname>Schambergerová</lastname><firstname>Barbora</firstname></ref>
+  <team guest="0"><id>7780</id><name>Velká Ohrada</name><abbr>Velká Ohrada </abbr></team>
+  <team guest="1"><id>7814</id><name>TJ Slavoj OS A</name><abbr>TJ Slavoj OS A</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551875</id><xround></xround><round>9</round><div>5382</div><num>54</num><gdate>2026-12-01</gdate><gtime>20:00:00</gtime> 
+  <place>Hala Královka, plocha B</place> <city>Praha 7</city> 
+  <ref ord="1"><id>116140</id><lastname>Daňha</lastname><firstname>Jiří</firstname></ref>
+  <ref ord="2"><id>80894</id><lastname>Schambergerová</lastname><firstname>Barbora</firstname></ref>
+  <team guest="0"><id>11146</id><name>Slovan Advokacie Praha</name><abbr>Slovan Advokacie Praha</abbr></team>
+  <team guest="1"><id>13715</id><name>Spartak Hrdlořezy</name><abbr>Spartak Hrdlořezy</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551876</id><xround></xround><round>10</round><div>5382</div><num>55</num><gdate>2026-12-08</gdate><gtime>19:45:00</gtime> 
+  <place>sokolovna Na Klamovce</place> <city>Praha 5</city> 
+  <ref ord="1"><id>100723</id><lastname>Mainuš</lastname><firstname>Jakub</firstname></ref>
+  <team guest="0"><id>7782</id><name>Sokol  Košíře</name><abbr>Sokol  Košíře </abbr></team>
+  <team guest="1"><id>13715</id><name>Spartak Hrdlořezy</name><abbr>Spartak Hrdlořezy</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551877</id><xround></xround><round>10</round><div>5382</div><num>56</num><gdate>2026-12-09</gdate><gtime>18:30:00</gtime> 
+  <place>ZŠ Chelčického </place> <city>Praha 3</city> 
+  <ref ord="1"><id>34629</id><lastname>Koc</lastname><firstname>Ondřej</firstname></ref>
+  <ref ord="2"><id>100775</id><lastname>Křemenová</lastname><firstname>Kateřina</firstname></ref>
+  <team guest="0"><id>7814</id><name>TJ Slavoj OS A</name><abbr>TJ Slavoj OS A</abbr></team>
+  <team guest="1"><id>11146</id><name>Slovan Advokacie Praha</name><abbr>Slovan Advokacie Praha</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551878</id><xround></xround><round>10</round><div>5382</div><num>57</num><gdate>2026-12-10</gdate><gtime>20:20:00</gtime> 
+  <place>ZŠ Chelčického </place> <city>Praha 3</city> 
+  <ref ord="1"><id>4545</id><lastname>Petrák</lastname><firstname>Jakub</firstname></ref>
+  <ref ord="2"><id>104453</id><lastname>Procházka</lastname><firstname>Pavel</firstname></ref>
+  <team guest="0"><id>15438</id><name>HB Basket</name><abbr>HB Basket</abbr></team>
+  <team guest="1"><id>7780</id><name>Velká Ohrada</name><abbr>Velká Ohrada </abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551879</id><xround></xround><round>10</round><div>5382</div><num>58</num><gdate>2026-12-10</gdate><gtime>19:40:00</gtime> 
+  <place>ZŠ Národních Hrdinů</place> <city>Praha 9</city> 
+  <ref ord="1"><id>90898</id><lastname>Kreuzová</lastname><firstname>Emma</firstname></ref>
+  <ref ord="2"><id>81762</id><lastname>Dub</lastname><firstname>Michal</firstname></ref>
+  <team guest="0"><id>13315</id><name>Sokol Dolní Počernice C</name><abbr>Sokol Dolní Počernice C</abbr></team>
+  <team guest="1"><id>7770</id><name>BK Rotor Punkrác A</name><abbr>BK Rotor Punkrác A</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551880</id><xround></xround><round>10</round><div>5382</div><num>59</num><gdate>2026-12-08</gdate><gtime>18:00:00</gtime> 
+  <place>ZŠ TGM</place> <city>Praha 4</city> 
+  <ref ord="1"><id>87450</id><lastname>Šuláková</lastname><firstname>Pavlína</firstname></ref>
+  <team guest="0"><id>7759</id><name>Fenix Modřany B</name><abbr>Fenix Modřany B</abbr></team>
+  <team guest="1"><id>11908</id><name>BC Přírodní Vědy B</name><abbr>BC Přírodní Vědy B</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551881</id><xround></xround><round>10</round><div>5382</div><num>60</num><gdate>2026-12-07</gdate><gtime>19:10:00</gtime> 
+  <place>Sportovní centrum UK</place> <city>Praha 10</city> 
+  <ref ord="1"><id>99823</id><lastname>Soudková</lastname><firstname>Magdalena</firstname></ref>
+  <team guest="0"><id>7811</id><name>VSK Iuridica B</name><abbr>VSK Iuridica B</abbr></team>
+  <team guest="1"><id>7817</id><name>TJ ÚVN</name><abbr>TJ ÚVN </abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551882</id><xround></xround><round>11</round><div>5382</div><num>61</num><gdate>2026-12-15</gdate><gtime>19:40:00</gtime> 
+  <place>ZŠ Weberova </place> <city>Praha 5</city> 
+  <ref ord="1"><id>94845</id><lastname>Mainuš</lastname><firstname>Michal</firstname></ref>
+  <ref ord="2"><id>217</id><lastname>Kohout</lastname><firstname>Radomír</firstname></ref>
+  <team guest="0"><id>7817</id><name>TJ ÚVN</name><abbr>TJ ÚVN </abbr></team>
+  <team guest="1"><id>7782</id><name>Sokol  Košíře</name><abbr>Sokol  Košíře </abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551883</id><xround></xround><round>11</round><div>5382</div><num>62</num><gdate>2026-12-16</gdate><gtime>17:50:00</gtime> 
+  <place>Sportovní centrum UK</place> <city>Praha 10</city> 
+  <ref ord="2"><id>100965</id><lastname>Melzer</lastname><firstname>Vojtěch</firstname></ref>
+  <team guest="0"><id>11908</id><name>BC Přírodní Vědy B</name><abbr>BC Přírodní Vědy B</abbr></team>
+  <team guest="1"><id>7811</id><name>VSK Iuridica B</name><abbr>VSK Iuridica B</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551884</id><xround></xround><round>11</round><div>5382</div><num>63</num><gdate>2026-12-17</gdate><gtime>19:10:00</gtime> 
+  <place>Sportovní hala Bítovská</place> <city>Praha 4</city> 
+  <team guest="0"><id>7770</id><name>BK Rotor Punkrác A</name><abbr>BK Rotor Punkrác A</abbr></team>
+  <team guest="1"><id>7759</id><name>Fenix Modřany B</name><abbr>Fenix Modřany B</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551885</id><xround></xround><round>11</round><div>5382</div><num>64</num><gdate>2026-12-17</gdate><gtime>19:35:00</gtime> 
+  <place>ZŠ Mládí</place> <city>Praha 5</city> 
+  <ref ord="1"><id>217</id><lastname>Kohout</lastname><firstname>Radomír</firstname></ref>
+  <team guest="0"><id>7780</id><name>Velká Ohrada</name><abbr>Velká Ohrada </abbr></team>
+  <team guest="1"><id>13315</id><name>Sokol Dolní Počernice C</name><abbr>Sokol Dolní Počernice C</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551886</id><xround></xround><round>11</round><div>5382</div><num>65</num><gdate>2026-12-15</gdate><gtime>20:00:00</gtime> 
+  <place>Hala Královka, plocha B</place> <city>Praha 7</city> 
+  <ref ord="1"><id>80894</id><lastname>Schambergerová</lastname><firstname>Barbora</firstname></ref>
+  <ref ord="2"><id>34629</id><lastname>Koc</lastname><firstname>Ondřej</firstname></ref>
+  <team guest="0"><id>11146</id><name>Slovan Advokacie Praha</name><abbr>Slovan Advokacie Praha</abbr></team>
+  <team guest="1"><id>15438</id><name>HB Basket</name><abbr>HB Basket</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551887</id><xround></xround><round>11</round><div>5382</div><num>66</num><gdate>2026-12-17</gdate><gtime>17:35:00</gtime> 
+  <place>ZŠ Mochovská</place> <city>Praha 9</city> 
+  <ref ord="1"><id>81047</id><lastname>Pommer</lastname><firstname>Roman</firstname></ref>
+  <ref ord="2"><id>90898</id><lastname>Kreuzová</lastname><firstname>Emma</firstname></ref>
+  <team guest="0"><id>13715</id><name>Spartak Hrdlořezy</name><abbr>Spartak Hrdlořezy</abbr></team>
+  <team guest="1"><id>7814</id><name>TJ Slavoj OS A</name><abbr>TJ Slavoj OS A</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551888</id><xround></xround><round>12</round><div>5382</div><num>67</num><gdate>2027-01-11</gdate><gtime>00:00:00</gtime> 
+  <place>sokolovna Na Klamovce</place> <city>Praha 5</city> 
+  <team guest="0"><id>7782</id><name>Sokol  Košíře</name><abbr>Sokol  Košíře </abbr></team>
+  <team guest="1"><id>7814</id><name>TJ Slavoj OS A</name><abbr>TJ Slavoj OS A</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551889</id><xround></xround><round>12</round><div>5382</div><num>68</num><gdate>2027-01-11</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Mochovská</place> <city>Praha 9</city> 
+  <team guest="0"><id>13715</id><name>Spartak Hrdlořezy</name><abbr>Spartak Hrdlořezy</abbr></team>
+  <team guest="1"><id>15438</id><name>HB Basket</name><abbr>HB Basket</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551890</id><xround></xround><round>12</round><div>5382</div><num>69</num><gdate>2027-01-11</gdate><gtime>00:00:00</gtime> 
+  <place>Hala Královka, plocha B</place> <city>Praha 7</city> 
+  <team guest="0"><id>11146</id><name>Slovan Advokacie Praha</name><abbr>Slovan Advokacie Praha</abbr></team>
+  <team guest="1"><id>13315</id><name>Sokol Dolní Počernice C</name><abbr>Sokol Dolní Počernice C</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551891</id><xround></xround><round>12</round><div>5382</div><num>70</num><gdate>2027-01-11</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Mládí</place> <city>Praha 5</city> 
+  <team guest="0"><id>7780</id><name>Velká Ohrada</name><abbr>Velká Ohrada </abbr></team>
+  <team guest="1"><id>7759</id><name>Fenix Modřany B</name><abbr>Fenix Modřany B</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551892</id><xround></xround><round>12</round><div>5382</div><num>71</num><gdate>2027-01-11</gdate><gtime>00:00:00</gtime> 
+  <place>Sportovní hala Bítovská</place> <city>Praha 4</city> 
+  <team guest="0"><id>7770</id><name>BK Rotor Punkrác A</name><abbr>BK Rotor Punkrác A</abbr></team>
+  <team guest="1"><id>7811</id><name>VSK Iuridica B</name><abbr>VSK Iuridica B</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551893</id><xround></xround><round>12</round><div>5382</div><num>72</num><gdate>2027-01-11</gdate><gtime>00:00:00</gtime> 
+  <place>Sportovní centrum UK</place> <city>Praha 10</city> 
+  <team guest="0"><id>11908</id><name>BC Přírodní Vědy B</name><abbr>BC Přírodní Vědy B</abbr></team>
+  <team guest="1"><id>7817</id><name>TJ ÚVN</name><abbr>TJ ÚVN </abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551894</id><xround></xround><round>13</round><div>5382</div><num>73</num><gdate>2027-01-18</gdate><gtime>00:00:00</gtime> 
+  <place>Sportovní centrum UK</place> <city>Praha 10</city> 
+  <team guest="0"><id>11908</id><name>BC Přírodní Vědy B</name><abbr>BC Přírodní Vědy B</abbr></team>
+  <team guest="1"><id>7782</id><name>Sokol  Košíře</name><abbr>Sokol  Košíře </abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551895</id><xround></xround><round>13</round><div>5382</div><num>74</num><gdate>2027-01-18</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Weberova </place> <city>Praha 5</city> 
+  <team guest="0"><id>7817</id><name>TJ ÚVN</name><abbr>TJ ÚVN </abbr></team>
+  <team guest="1"><id>7770</id><name>BK Rotor Punkrác A</name><abbr>BK Rotor Punkrác A</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551896</id><xround></xround><round>13</round><div>5382</div><num>75</num><gdate>2027-01-18</gdate><gtime>00:00:00</gtime> 
+  <place>Sportovní centrum UK</place> <city>Praha 10</city> 
+  <team guest="0"><id>7811</id><name>VSK Iuridica B</name><abbr>VSK Iuridica B</abbr></team>
+  <team guest="1"><id>7780</id><name>Velká Ohrada</name><abbr>Velká Ohrada </abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551897</id><xround></xround><round>13</round><div>5382</div><num>76</num><gdate>2027-01-18</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ TGM</place> <city>Praha 4</city> 
+  <team guest="0"><id>7759</id><name>Fenix Modřany B</name><abbr>Fenix Modřany B</abbr></team>
+  <team guest="1"><id>11146</id><name>Slovan Advokacie Praha</name><abbr>Slovan Advokacie Praha</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551898</id><xround></xround><round>13</round><div>5382</div><num>77</num><gdate>2027-01-18</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Národních Hrdinů</place> <city>Praha 9</city> 
+  <team guest="0"><id>13315</id><name>Sokol Dolní Počernice C</name><abbr>Sokol Dolní Počernice C</abbr></team>
+  <team guest="1"><id>13715</id><name>Spartak Hrdlořezy</name><abbr>Spartak Hrdlořezy</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551899</id><xround></xround><round>13</round><div>5382</div><num>78</num><gdate>2027-01-18</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Chelčického </place> <city>Praha 3</city> 
+  <team guest="0"><id>15438</id><name>HB Basket</name><abbr>HB Basket</abbr></team>
+  <team guest="1"><id>7814</id><name>TJ Slavoj OS A</name><abbr>TJ Slavoj OS A</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551900</id><xround></xround><round>14</round><div>5382</div><num>79</num><gdate>2027-01-25</gdate><gtime>00:00:00</gtime> 
+  <place>sokolovna Na Klamovce</place> <city>Praha 5</city> 
+  <team guest="0"><id>7782</id><name>Sokol  Košíře</name><abbr>Sokol  Košíře </abbr></team>
+  <team guest="1"><id>15438</id><name>HB Basket</name><abbr>HB Basket</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551901</id><xround></xround><round>14</round><div>5382</div><num>80</num><gdate>2027-01-25</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Chelčického </place> <city>Praha 3</city> 
+  <team guest="0"><id>7814</id><name>TJ Slavoj OS A</name><abbr>TJ Slavoj OS A</abbr></team>
+  <team guest="1"><id>13315</id><name>Sokol Dolní Počernice C</name><abbr>Sokol Dolní Počernice C</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551902</id><xround></xround><round>14</round><div>5382</div><num>81</num><gdate>2027-01-25</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Mochovská</place> <city>Praha 9</city> 
+  <team guest="0"><id>13715</id><name>Spartak Hrdlořezy</name><abbr>Spartak Hrdlořezy</abbr></team>
+  <team guest="1"><id>7759</id><name>Fenix Modřany B</name><abbr>Fenix Modřany B</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551903</id><xround></xround><round>14</round><div>5382</div><num>82</num><gdate>2027-01-25</gdate><gtime>00:00:00</gtime> 
+  <place>Hala Královka, plocha B</place> <city>Praha 7</city> 
+  <team guest="0"><id>11146</id><name>Slovan Advokacie Praha</name><abbr>Slovan Advokacie Praha</abbr></team>
+  <team guest="1"><id>7811</id><name>VSK Iuridica B</name><abbr>VSK Iuridica B</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551904</id><xround></xround><round>14</round><div>5382</div><num>83</num><gdate>2027-01-25</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Mládí</place> <city>Praha 5</city> 
+  <team guest="0"><id>7780</id><name>Velká Ohrada</name><abbr>Velká Ohrada </abbr></team>
+  <team guest="1"><id>7817</id><name>TJ ÚVN</name><abbr>TJ ÚVN </abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551905</id><xround></xround><round>14</round><div>5382</div><num>84</num><gdate>2027-01-25</gdate><gtime>00:00:00</gtime> 
+  <place>Sportovní hala Bítovská</place> <city>Praha 4</city> 
+  <team guest="0"><id>7770</id><name>BK Rotor Punkrác A</name><abbr>BK Rotor Punkrác A</abbr></team>
+  <team guest="1"><id>11908</id><name>BC Přírodní Vědy B</name><abbr>BC Přírodní Vědy B</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551906</id><xround></xround><round>15</round><div>5382</div><num>85</num><gdate>2027-02-01</gdate><gtime>00:00:00</gtime> 
+  <place>Sportovní hala Bítovská</place> <city>Praha 4</city> 
+  <team guest="0"><id>7770</id><name>BK Rotor Punkrác A</name><abbr>BK Rotor Punkrác A</abbr></team>
+  <team guest="1"><id>7782</id><name>Sokol  Košíře</name><abbr>Sokol  Košíře </abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551907</id><xround></xround><round>15</round><div>5382</div><num>86</num><gdate>2027-02-01</gdate><gtime>00:00:00</gtime> 
+  <place>Sportovní centrum UK</place> <city>Praha 10</city> 
+  <team guest="0"><id>11908</id><name>BC Přírodní Vědy B</name><abbr>BC Přírodní Vědy B</abbr></team>
+  <team guest="1"><id>7780</id><name>Velká Ohrada</name><abbr>Velká Ohrada </abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551908</id><xround></xround><round>15</round><div>5382</div><num>87</num><gdate>2027-02-01</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Weberova </place> <city>Praha 5</city> 
+  <team guest="0"><id>7817</id><name>TJ ÚVN</name><abbr>TJ ÚVN </abbr></team>
+  <team guest="1"><id>11146</id><name>Slovan Advokacie Praha</name><abbr>Slovan Advokacie Praha</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551909</id><xround></xround><round>15</round><div>5382</div><num>88</num><gdate>2027-02-01</gdate><gtime>00:00:00</gtime> 
+  <place>Sportovní centrum UK</place> <city>Praha 10</city> 
+  <team guest="0"><id>7811</id><name>VSK Iuridica B</name><abbr>VSK Iuridica B</abbr></team>
+  <team guest="1"><id>13715</id><name>Spartak Hrdlořezy</name><abbr>Spartak Hrdlořezy</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551910</id><xround></xround><round>15</round><div>5382</div><num>89</num><gdate>2027-02-01</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ TGM</place> <city>Praha 4</city> 
+  <team guest="0"><id>7759</id><name>Fenix Modřany B</name><abbr>Fenix Modřany B</abbr></team>
+  <team guest="1"><id>7814</id><name>TJ Slavoj OS A</name><abbr>TJ Slavoj OS A</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551911</id><xround></xround><round>15</round><div>5382</div><num>90</num><gdate>2027-02-01</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Národních Hrdinů</place> <city>Praha 9</city> 
+  <team guest="0"><id>13315</id><name>Sokol Dolní Počernice C</name><abbr>Sokol Dolní Počernice C</abbr></team>
+  <team guest="1"><id>15438</id><name>HB Basket</name><abbr>HB Basket</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551912</id><xround></xround><round>16</round><div>5382</div><num>91</num><gdate>2027-02-08</gdate><gtime>00:00:00</gtime> 
+  <place>sokolovna Na Klamovce</place> <city>Praha 5</city> 
+  <team guest="0"><id>7782</id><name>Sokol  Košíře</name><abbr>Sokol  Košíře </abbr></team>
+  <team guest="1"><id>13315</id><name>Sokol Dolní Počernice C</name><abbr>Sokol Dolní Počernice C</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551913</id><xround></xround><round>16</round><div>5382</div><num>92</num><gdate>2027-02-08</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Chelčického </place> <city>Praha 3</city> 
+  <team guest="0"><id>15438</id><name>HB Basket</name><abbr>HB Basket</abbr></team>
+  <team guest="1"><id>7759</id><name>Fenix Modřany B</name><abbr>Fenix Modřany B</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551914</id><xround></xround><round>16</round><div>5382</div><num>93</num><gdate>2027-02-08</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Chelčického </place> <city>Praha 3</city> 
+  <team guest="0"><id>7814</id><name>TJ Slavoj OS A</name><abbr>TJ Slavoj OS A</abbr></team>
+  <team guest="1"><id>7811</id><name>VSK Iuridica B</name><abbr>VSK Iuridica B</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551915</id><xround></xround><round>16</round><div>5382</div><num>94</num><gdate>2027-02-08</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Mochovská</place> <city>Praha 9</city> 
+  <team guest="0"><id>13715</id><name>Spartak Hrdlořezy</name><abbr>Spartak Hrdlořezy</abbr></team>
+  <team guest="1"><id>7817</id><name>TJ ÚVN</name><abbr>TJ ÚVN </abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551916</id><xround></xround><round>16</round><div>5382</div><num>95</num><gdate>2027-02-08</gdate><gtime>00:00:00</gtime> 
+  <place>Hala Královka, plocha B</place> <city>Praha 7</city> 
+  <team guest="0"><id>11146</id><name>Slovan Advokacie Praha</name><abbr>Slovan Advokacie Praha</abbr></team>
+  <team guest="1"><id>11908</id><name>BC Přírodní Vědy B</name><abbr>BC Přírodní Vědy B</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551917</id><xround></xround><round>16</round><div>5382</div><num>96</num><gdate>2027-02-08</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Mládí</place> <city>Praha 5</city> 
+  <team guest="0"><id>7780</id><name>Velká Ohrada</name><abbr>Velká Ohrada </abbr></team>
+  <team guest="1"><id>7770</id><name>BK Rotor Punkrác A</name><abbr>BK Rotor Punkrác A</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551918</id><xround></xround><round>17</round><div>5382</div><num>97</num><gdate>2027-02-15</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Mládí</place> <city>Praha 5</city> 
+  <team guest="0"><id>7780</id><name>Velká Ohrada</name><abbr>Velká Ohrada </abbr></team>
+  <team guest="1"><id>7782</id><name>Sokol  Košíře</name><abbr>Sokol  Košíře </abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551919</id><xround></xround><round>17</round><div>5382</div><num>98</num><gdate>2027-02-15</gdate><gtime>00:00:00</gtime> 
+  <place>Sportovní hala Bítovská</place> <city>Praha 4</city> 
+  <team guest="0"><id>7770</id><name>BK Rotor Punkrác A</name><abbr>BK Rotor Punkrác A</abbr></team>
+  <team guest="1"><id>11146</id><name>Slovan Advokacie Praha</name><abbr>Slovan Advokacie Praha</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551920</id><xround></xround><round>17</round><div>5382</div><num>99</num><gdate>2027-02-15</gdate><gtime>00:00:00</gtime> 
+  <place>Sportovní centrum UK</place> <city>Praha 10</city> 
+  <team guest="0"><id>11908</id><name>BC Přírodní Vědy B</name><abbr>BC Přírodní Vědy B</abbr></team>
+  <team guest="1"><id>13715</id><name>Spartak Hrdlořezy</name><abbr>Spartak Hrdlořezy</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551921</id><xround></xround><round>17</round><div>5382</div><num>100</num><gdate>2027-02-15</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Weberova </place> <city>Praha 5</city> 
+  <team guest="0"><id>7817</id><name>TJ ÚVN</name><abbr>TJ ÚVN </abbr></team>
+  <team guest="1"><id>7814</id><name>TJ Slavoj OS A</name><abbr>TJ Slavoj OS A</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551922</id><xround></xround><round>17</round><div>5382</div><num>101</num><gdate>2027-02-15</gdate><gtime>00:00:00</gtime> 
+  <place>Sportovní centrum UK</place> <city>Praha 10</city> 
+  <team guest="0"><id>7811</id><name>VSK Iuridica B</name><abbr>VSK Iuridica B</abbr></team>
+  <team guest="1"><id>15438</id><name>HB Basket</name><abbr>HB Basket</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551923</id><xround></xround><round>17</round><div>5382</div><num>102</num><gdate>2027-02-15</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ TGM</place> <city>Praha 4</city> 
+  <team guest="0"><id>7759</id><name>Fenix Modřany B</name><abbr>Fenix Modřany B</abbr></team>
+  <team guest="1"><id>13315</id><name>Sokol Dolní Počernice C</name><abbr>Sokol Dolní Počernice C</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551924</id><xround></xround><round>18</round><div>5382</div><num>103</num><gdate>2027-03-08</gdate><gtime>00:00:00</gtime> 
+  <place>sokolovna Na Klamovce</place> <city>Praha 5</city> 
+  <team guest="0"><id>7782</id><name>Sokol  Košíře</name><abbr>Sokol  Košíře </abbr></team>
+  <team guest="1"><id>7759</id><name>Fenix Modřany B</name><abbr>Fenix Modřany B</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551925</id><xround></xround><round>18</round><div>5382</div><num>104</num><gdate>2027-03-08</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Národních Hrdinů</place> <city>Praha 9</city> 
+  <team guest="0"><id>13315</id><name>Sokol Dolní Počernice C</name><abbr>Sokol Dolní Počernice C</abbr></team>
+  <team guest="1"><id>7811</id><name>VSK Iuridica B</name><abbr>VSK Iuridica B</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551926</id><xround></xround><round>18</round><div>5382</div><num>105</num><gdate>2027-03-08</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Chelčického </place> <city>Praha 3</city> 
+  <team guest="0"><id>15438</id><name>HB Basket</name><abbr>HB Basket</abbr></team>
+  <team guest="1"><id>7817</id><name>TJ ÚVN</name><abbr>TJ ÚVN </abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551927</id><xround></xround><round>18</round><div>5382</div><num>106</num><gdate>2027-03-08</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Chelčického </place> <city>Praha 3</city> 
+  <team guest="0"><id>7814</id><name>TJ Slavoj OS A</name><abbr>TJ Slavoj OS A</abbr></team>
+  <team guest="1"><id>11908</id><name>BC Přírodní Vědy B</name><abbr>BC Přírodní Vědy B</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551928</id><xround></xround><round>18</round><div>5382</div><num>107</num><gdate>2027-03-08</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Mochovská</place> <city>Praha 9</city> 
+  <team guest="0"><id>13715</id><name>Spartak Hrdlořezy</name><abbr>Spartak Hrdlořezy</abbr></team>
+  <team guest="1"><id>7770</id><name>BK Rotor Punkrác A</name><abbr>BK Rotor Punkrác A</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551929</id><xround></xround><round>18</round><div>5382</div><num>108</num><gdate>2027-03-08</gdate><gtime>00:00:00</gtime> 
+  <place>Hala Královka, plocha B</place> <city>Praha 7</city> 
+  <team guest="0"><id>11146</id><name>Slovan Advokacie Praha</name><abbr>Slovan Advokacie Praha</abbr></team>
+  <team guest="1"><id>7780</id><name>Velká Ohrada</name><abbr>Velká Ohrada </abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551930</id><xround></xround><round>19</round><div>5382</div><num>109</num><gdate>2027-03-15</gdate><gtime>00:00:00</gtime> 
+  <place>Hala Královka, plocha B</place> <city>Praha 7</city> 
+  <team guest="0"><id>11146</id><name>Slovan Advokacie Praha</name><abbr>Slovan Advokacie Praha</abbr></team>
+  <team guest="1"><id>7782</id><name>Sokol  Košíře</name><abbr>Sokol  Košíře </abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551931</id><xround></xround><round>19</round><div>5382</div><num>110</num><gdate>2027-03-15</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Mládí</place> <city>Praha 5</city> 
+  <team guest="0"><id>7780</id><name>Velká Ohrada</name><abbr>Velká Ohrada </abbr></team>
+  <team guest="1"><id>13715</id><name>Spartak Hrdlořezy</name><abbr>Spartak Hrdlořezy</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551932</id><xround></xround><round>19</round><div>5382</div><num>111</num><gdate>2027-03-15</gdate><gtime>00:00:00</gtime> 
+  <place>Sportovní hala Bítovská</place> <city>Praha 4</city> 
+  <team guest="0"><id>7770</id><name>BK Rotor Punkrác A</name><abbr>BK Rotor Punkrác A</abbr></team>
+  <team guest="1"><id>7814</id><name>TJ Slavoj OS A</name><abbr>TJ Slavoj OS A</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551933</id><xround></xround><round>19</round><div>5382</div><num>112</num><gdate>2027-03-15</gdate><gtime>00:00:00</gtime> 
+  <place>Sportovní centrum UK</place> <city>Praha 10</city> 
+  <team guest="0"><id>11908</id><name>BC Přírodní Vědy B</name><abbr>BC Přírodní Vědy B</abbr></team>
+  <team guest="1"><id>15438</id><name>HB Basket</name><abbr>HB Basket</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551934</id><xround></xround><round>19</round><div>5382</div><num>113</num><gdate>2027-03-15</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Weberova </place> <city>Praha 5</city> 
+  <team guest="0"><id>7817</id><name>TJ ÚVN</name><abbr>TJ ÚVN </abbr></team>
+  <team guest="1"><id>13315</id><name>Sokol Dolní Počernice C</name><abbr>Sokol Dolní Počernice C</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551935</id><xround></xround><round>19</round><div>5382</div><num>114</num><gdate>2027-03-15</gdate><gtime>00:00:00</gtime> 
+  <place>Sportovní centrum UK</place> <city>Praha 10</city> 
+  <team guest="0"><id>7811</id><name>VSK Iuridica B</name><abbr>VSK Iuridica B</abbr></team>
+  <team guest="1"><id>7759</id><name>Fenix Modřany B</name><abbr>Fenix Modřany B</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551936</id><xround></xround><round>20</round><div>5382</div><num>115</num><gdate>2027-03-22</gdate><gtime>00:00:00</gtime> 
+  <place>sokolovna Na Klamovce</place> <city>Praha 5</city> 
+  <team guest="0"><id>7782</id><name>Sokol  Košíře</name><abbr>Sokol  Košíře </abbr></team>
+  <team guest="1"><id>7811</id><name>VSK Iuridica B</name><abbr>VSK Iuridica B</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551937</id><xround></xround><round>20</round><div>5382</div><num>116</num><gdate>2027-03-22</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ TGM</place> <city>Praha 4</city> 
+  <team guest="0"><id>7759</id><name>Fenix Modřany B</name><abbr>Fenix Modřany B</abbr></team>
+  <team guest="1"><id>7817</id><name>TJ ÚVN</name><abbr>TJ ÚVN </abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551938</id><xround></xround><round>20</round><div>5382</div><num>117</num><gdate>2027-03-22</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Národních Hrdinů</place> <city>Praha 9</city> 
+  <team guest="0"><id>13315</id><name>Sokol Dolní Počernice C</name><abbr>Sokol Dolní Počernice C</abbr></team>
+  <team guest="1"><id>11908</id><name>BC Přírodní Vědy B</name><abbr>BC Přírodní Vědy B</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551939</id><xround></xround><round>20</round><div>5382</div><num>118</num><gdate>2027-03-22</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Chelčického </place> <city>Praha 3</city> 
+  <team guest="0"><id>15438</id><name>HB Basket</name><abbr>HB Basket</abbr></team>
+  <team guest="1"><id>7770</id><name>BK Rotor Punkrác A</name><abbr>BK Rotor Punkrác A</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551940</id><xround></xround><round>20</round><div>5382</div><num>119</num><gdate>2027-03-22</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Chelčického </place> <city>Praha 3</city> 
+  <team guest="0"><id>7814</id><name>TJ Slavoj OS A</name><abbr>TJ Slavoj OS A</abbr></team>
+  <team guest="1"><id>7780</id><name>Velká Ohrada</name><abbr>Velká Ohrada </abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551941</id><xround></xround><round>20</round><div>5382</div><num>120</num><gdate>2027-03-22</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Mochovská</place> <city>Praha 9</city> 
+  <team guest="0"><id>13715</id><name>Spartak Hrdlořezy</name><abbr>Spartak Hrdlořezy</abbr></team>
+  <team guest="1"><id>11146</id><name>Slovan Advokacie Praha</name><abbr>Slovan Advokacie Praha</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551942</id><xround></xround><round>21</round><div>5382</div><num>121</num><gdate>2027-03-29</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Mochovská</place> <city>Praha 9</city> 
+  <team guest="0"><id>13715</id><name>Spartak Hrdlořezy</name><abbr>Spartak Hrdlořezy</abbr></team>
+  <team guest="1"><id>7782</id><name>Sokol  Košíře</name><abbr>Sokol  Košíře </abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551943</id><xround></xround><round>21</round><div>5382</div><num>122</num><gdate>2027-03-29</gdate><gtime>00:00:00</gtime> 
+  <place>Hala Královka, plocha B</place> <city>Praha 7</city> 
+  <team guest="0"><id>11146</id><name>Slovan Advokacie Praha</name><abbr>Slovan Advokacie Praha</abbr></team>
+  <team guest="1"><id>7814</id><name>TJ Slavoj OS A</name><abbr>TJ Slavoj OS A</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551944</id><xround></xround><round>21</round><div>5382</div><num>123</num><gdate>2027-03-29</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Mládí</place> <city>Praha 5</city> 
+  <team guest="0"><id>7780</id><name>Velká Ohrada</name><abbr>Velká Ohrada </abbr></team>
+  <team guest="1"><id>15438</id><name>HB Basket</name><abbr>HB Basket</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551945</id><xround></xround><round>21</round><div>5382</div><num>124</num><gdate>2027-03-29</gdate><gtime>00:00:00</gtime> 
+  <place>Sportovní hala Bítovská</place> <city>Praha 4</city> 
+  <team guest="0"><id>7770</id><name>BK Rotor Punkrác A</name><abbr>BK Rotor Punkrác A</abbr></team>
+  <team guest="1"><id>13315</id><name>Sokol Dolní Počernice C</name><abbr>Sokol Dolní Počernice C</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551946</id><xround></xround><round>21</round><div>5382</div><num>125</num><gdate>2027-03-29</gdate><gtime>00:00:00</gtime> 
+  <place>Sportovní centrum UK</place> <city>Praha 10</city> 
+  <team guest="0"><id>11908</id><name>BC Přírodní Vědy B</name><abbr>BC Přírodní Vědy B</abbr></team>
+  <team guest="1"><id>7759</id><name>Fenix Modřany B</name><abbr>Fenix Modřany B</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551947</id><xround></xround><round>21</round><div>5382</div><num>126</num><gdate>2027-03-29</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Weberova </place> <city>Praha 5</city> 
+  <team guest="0"><id>7817</id><name>TJ ÚVN</name><abbr>TJ ÚVN </abbr></team>
+  <team guest="1"><id>7811</id><name>VSK Iuridica B</name><abbr>VSK Iuridica B</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551948</id><xround></xround><round>22</round><div>5382</div><num>127</num><gdate>2027-04-05</gdate><gtime>00:00:00</gtime> 
+  <place>sokolovna Na Klamovce</place> <city>Praha 5</city> 
+  <team guest="0"><id>7782</id><name>Sokol  Košíře</name><abbr>Sokol  Košíře </abbr></team>
+  <team guest="1"><id>7817</id><name>TJ ÚVN</name><abbr>TJ ÚVN </abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551949</id><xround></xround><round>22</round><div>5382</div><num>128</num><gdate>2027-04-05</gdate><gtime>00:00:00</gtime> 
+  <place>Sportovní centrum UK</place> <city>Praha 10</city> 
+  <team guest="0"><id>7811</id><name>VSK Iuridica B</name><abbr>VSK Iuridica B</abbr></team>
+  <team guest="1"><id>11908</id><name>BC Přírodní Vědy B</name><abbr>BC Přírodní Vědy B</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551950</id><xround></xround><round>22</round><div>5382</div><num>129</num><gdate>2027-04-05</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ TGM</place> <city>Praha 4</city> 
+  <team guest="0"><id>7759</id><name>Fenix Modřany B</name><abbr>Fenix Modřany B</abbr></team>
+  <team guest="1"><id>7770</id><name>BK Rotor Punkrác A</name><abbr>BK Rotor Punkrác A</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551951</id><xround></xround><round>22</round><div>5382</div><num>130</num><gdate>2027-04-05</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Národních Hrdinů</place> <city>Praha 9</city> 
+  <team guest="0"><id>13315</id><name>Sokol Dolní Počernice C</name><abbr>Sokol Dolní Počernice C</abbr></team>
+  <team guest="1"><id>7780</id><name>Velká Ohrada</name><abbr>Velká Ohrada </abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551952</id><xround></xround><round>22</round><div>5382</div><num>131</num><gdate>2027-04-05</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Chelčického </place> <city>Praha 3</city> 
+  <team guest="0"><id>15438</id><name>HB Basket</name><abbr>HB Basket</abbr></team>
+  <team guest="1"><id>11146</id><name>Slovan Advokacie Praha</name><abbr>Slovan Advokacie Praha</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+<game>
+  <id>551953</id><xround></xround><round>22</round><div>5382</div><num>132</num><gdate>2027-04-05</gdate><gtime>00:00:00</gtime> 
+  <place>ZŠ Chelčického </place> <city>Praha 3</city> 
+  <team guest="0"><id>7814</id><name>TJ Slavoj OS A</name><abbr>TJ Slavoj OS A</abbr></team>
+  <team guest="1"><id>13715</id><name>Spartak Hrdlořezy</name><abbr>Spartak Hrdlořezy</abbr></team>
+  <result>
+    <pts><a>0</a><b>0</b></pts><score><a>0</a><b>0</b></score>
+    <partials><partial ord="1"><a>0</a><b>0</b></partial></partials>
+    <urllive></urllive> 
+  </result>
+</game>
+</games>
+	

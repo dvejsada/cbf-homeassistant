@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE table PUBLIC "-//CBF//table export//EN" "http://www.cbf.cz/xml/spec/table.dtd">
+<table>
+<team><pos>1</pos><id>7780</id><name>Velká Ohrada</name><abbr>Velká Ohrada </abbr><gp>6</gp><gw>5</gw><gl>1</gl><sp>470</sp><sm>312</sm><pt>11</pt><group>7780</group></team>
+<team><pos>2</pos><id>11908</id><name>BC Přírodní Vědy B</name><abbr>BC Přírodní Vědy B</abbr><gp>6</gp><gw>5</gw><gl>1</gl><sp>362</sp><sm>293</sm><pt>11</pt><group>11908</group></team>
+<team><pos>3</pos><id>11146</id><name>Slovan Advokacie Praha</name><abbr>Slovan Advokacie Praha</abbr><gp>7</gp><gw>4</gw><gl>3</gl><sp>374</sp><sm>405</sm><pt>11</pt><group>11146</group></team>
+<team><pos>4</pos><id>15438</id><name>HB Basket</name><abbr>HB Basket</abbr><gp>5</gp><gw>5</gw><gl>0</gl><sp>379</sp><sm>262</sm><pt>10</pt><group>15438</group></team>
+<team><pos>5</pos><id>7770</id><name>BK Rotor Punkrác A</name><abbr>BK Rotor Punkrác A</abbr><gp>7</gp><gw>3</gw><gl>4</gl><sp>450</sp><sm>424</sm><pt>10</pt><group>7770</group></team>
+<team><pos>6</pos><id>7782</id><name>Sokol  Košíře</name><abbr>Sokol  Košíře </abbr><gp>7</gp><gw>3</gw><gl>4</gl><sp>421</sp><sm>476</sm><pt>10</pt><group>7782</group></team>
+<team><pos>7</pos><id>7817</id><name>TJ ÚVN</name><abbr>TJ ÚVN </abbr><gp>7</gp><gw>2</gw><gl>5</gl><sp>337</sp><sm>507</sm><pt>9</pt><group>7817</group></team>
+<team><pos>8</pos><id>7814</id><name>TJ Slavoj OS A</name><abbr>TJ Slavoj OS A</abbr><gp>6</gp><gw>2</gw><gl>4</gl><sp>391</sp><sm>365</sm><pt>8</pt><group>7814</group></team>
+<team><pos>9</pos><id>7759</id><name>Fenix Modřany B</name><abbr>Fenix Modřany B</abbr><gp>6</gp><gw>2</gw><gl>4</gl><sp>347</sp><sm>384</sm><pt>8</pt><group>7759</group></team>
+<team><pos>10</pos><id>7811</id><name>VSK Iuridica B</name><abbr>VSK Iuridica B</abbr><gp>4</gp><gw>3</gw><gl>1</gl><sp>265</sp><sm>206</sm><pt>7</pt><group>7811</group></team>
+<team><pos>11</pos><id>13715</id><name>Spartak Hrdlořezy</name><abbr>Spartak Hrdlořezy</abbr><gp>6</gp><gw>1</gw><gl>5</gl><sp>309</sp><sm>403</sm><pt>7</pt><group>13715</group></team>
+<team><pos>12</pos><id>13315</id><name>Sokol Dolní Počernice C</name><abbr>Sokol Dolní Počernice C</abbr><gp>5</gp><gw>1</gw><gl>4</gl><sp>261</sp><sm>329</sm><pt>6</pt><group>13315</group></team>
+</table>
+

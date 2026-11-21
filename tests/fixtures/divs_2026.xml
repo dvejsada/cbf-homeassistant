@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE divs PUBLIC "-//CBF//divisions list//EN" "http://www.cbf.cz/xml/spec/divs.dtd">
+<divs>
+<div>
+  <id>5370</id><name>Předkvalifikace MS</name>
+  <season><id>2026</id><name>2026/27</name></season>
+  <cat><id>1633</id><name>Repre Ženy</name></cat>
+  <league><id>2830</id><name>Mistrovství světa</name></league>
+  <flags>
+    <flag name="results" />
+    <flag name="stats" />
+    <flag name="events" />
+  </flags>
+  <phases>
+  </phases>
+</div>
+<div>
+  <id>5380</id><name>1.třída</name>
+  <season><id>2026</id><name>2026/27</name></season>
+  <cat><id>1634</id><name>muži</name></cat>
+  <league><id>2832</id><name>Oblasti</name></league>
+  <flags>
+    <flag name="public" />
+    <flag name="players" />
+    <flag name="results" />
+    <flag name="stats" />
+    <flag name="refeval" />
+    <flag name="clubeval" />
+  </flags>
+  <phases>
+    <phase><id>10467</id><name>Základní fáze</name><type>1</type><offset>0</offset></phase>
+  </phases>
+</div>
+<div>
+  <id>5381</id><name>2.třída A</name>
+  <season><id>2026</id><name>2026/27</name></season>
+  <cat><id>1634</id><name>muži</name></cat>
+  <league><id>2832</id><name>Oblasti</name></league>
+  <flags>
+    <flag name="public" />
+    <flag name="players" />
+    <flag name="results" />
+    <flag name="stats" />
+    <flag name="refeval" />
+    <flag name="clubeval" />
+  </flags>
+  <phases>
+    <phase><id>10468</id><name>Základní fáze</name><type>1</type><offset>0</offset></phase>
+  </phases>
+</div>
+<div>
+  <id>5382</id><name>2.třída B</name>
+  <season><id>2026</id><name>2026/27</name></season>
+  <cat><id>1634</id><name>muži</name></cat>
+  <league><id>2832</id><name>Oblasti</name></league>
+  <flags>
+    <flag name="public" />
+    <flag name="players" />
+    <flag name="results" />
+    <flag name="stats" />
+    <flag name="refeval" />
+    <flag name="clubeval" />
+  </flags>
+  <phases>
+    <phase><id>10469</id><name>Základní fáze</name><type>1</type><offset>0</offset></phase>
+  </phases>
+</div>
+<div>
+  <id>5459</id><name>Středomoravský přebor U13M</name>
+  <season><id>2026</id><name>2026/27</name></season>
+  <cat><id>1641</id><name>muži U13</name></cat>
+  <league><id>2873</id><name>Oblasti</name></league>
+  <flags>
+    <flag name="public" />
+    <flag name="players" />
+    <flag name="results" />
+    <flag name="stats" />
+    <flag name="events" />
+  </flags>
+  <phases>
+    <phase><id>10279</id><name>Skupina A</name><type>1</type><offset>0</offset></phase>
+    <phase><id>10280</id><name>Skupina B</name><type>1</type><offset>0</offset></phase>
+    <phase><id>10281</id><name>o 1.- 4. místo</name><type>1</type><offset>0</offset></phase>
+    <phase><id>10282</id><name>o 5. - 8. místo</name><type>1</type><offset>0</offset></phase>
+    <phase><id>10283</id><name>o 9. - 12. místo</name><type>1</type><offset>0</offset></phase>
+  </phases>
+</div>
+</divs>
