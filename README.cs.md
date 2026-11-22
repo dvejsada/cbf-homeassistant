@@ -193,3 +193,7 @@ Založte [issue](https://github.com/dvejsada/cbf-homeassistant/issues) a přilo�
 ## ℹ️ O datech
 
 Data pocházejí z veřejných [XML exportů ČBF](https://cbf.cz.basketball/xml-exporty/p58). Projekt není spojen s Českou basketbalovou federací ani jí podporován.
+
+## 📄 Licence
+
+[MIT](LICENSE)

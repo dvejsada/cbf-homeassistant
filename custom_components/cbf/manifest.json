@@ -1,6 +1,10 @@
 {
   "domain": "cbf",
   "name": "CBF Basketball",
+  "categories": [
+    "media_entertainment",
+    "productivity_information.calendars_todos"
+  ],
   "codeowners": [
     "@dvejsada"
   ],
@@ -15,5 +19,5 @@
   "requirements": [
     "defusedxml>=0.7.1"
   ],
-  "version": "0.1.0"
+  "version": "0.1.1"
 }
