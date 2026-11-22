@@ -11,11 +11,13 @@ import re
 import sys
 
 MANIFEST = Path(__file__).parent.parent / "custom_components" / "cbf" / "manifest.json"
-VERSION_RE = re.compile(r"^\d+\.\d+\.\d+(-[0-9A-Za-z.]+)?$")
+# MAJOR.MINOR.PATCH with an optional pre-release like -beta.1 (dot-separated,
+# non-empty identifiers), so Home Assistant accepts it as a valid SemVer version.
+VERSION_RE = re.compile(r"\d+\.\d+\.\d+(-[0-9A-Za-z]+(\.[0-9A-Za-z]+)*)?")
 
 
 def main() -> int:
-    if len(sys.argv) != 2 or not VERSION_RE.match(sys.argv[1].removeprefix("v")):
+    if len(sys.argv) != 2 or not VERSION_RE.fullmatch(sys.argv[1].removeprefix("v")):
         print(__doc__.strip())
         return 1
     version = sys.argv[1].removeprefix("v")

@@ -4,7 +4,11 @@ Users install and update the integration through the Home Assistant **Marketplac
 
 ## Steps
 
-1. Make sure `main` contains everything you want to ship, and that the tests pass:
+1. Make sure `main` contains everything you want to ship, and that the tests pass. The tests need Python 3.14 and these packages:
+
+   ```bash
+   pip install pytest-homeassistant-custom-component defusedxml
+   ```
 
    ```bash
    python -m pytest -q
@@ -47,7 +51,7 @@ Users install and update the integration through the Home Assistant **Marketplac
 
 ## If GitHub Actions is not available
 
-Create the release by hand. On GitHub, open **Releases → Draft a new release**, choose the tag (for example `v0.2.0`), click **Generate release notes**, and then **Publish release**. The tag must match the `version` in `manifest.json`.
+Create the release by hand. On GitHub, open **Releases → Draft a new release**, choose the tag (for example `v0.2.0`), click **Generate release notes**, and then **Publish release**. The tag must match the `version` in `manifest.json`. If the Release workflow runs later for a tag you already published by hand, it sees the existing release and does nothing.
 
 ## Checking it in Home Assistant
 
